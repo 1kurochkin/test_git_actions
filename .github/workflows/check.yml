@@ -9,4 +9,4 @@ jobs:
       - name: Install deps
         run: cd web-cypress && npm install
       - name: Lint
-        run: npm run lint
+        run: cd web-cypress && npm run lint
