@@ -18,7 +18,7 @@ const tmsId = "@C-8571";
 describe("Product Description Pages (PDP) Test Suite", function () {
   it(
     "Load Bundle Product PDP " + issueId + " " + tmsId,
-    { tags: [TAGS.SMOKE] },
+    { tags: [TAGS.SMOKE, TAGS.CHECK] },
     function () {
       cy.setShopifyCookie();
       basePage.visitPage();

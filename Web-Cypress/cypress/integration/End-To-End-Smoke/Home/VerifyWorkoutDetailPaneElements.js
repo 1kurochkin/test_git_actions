@@ -15,7 +15,7 @@ const tmsId = "@C-8063";
 describe("Home Test Suite", function () {
   it(
     "Verify Workout Detail Pane elements " + issueId + " " + tmsId,
-    { tags: [TAGS.SMOKE] },
+    { tags: [TAGS.SMOKE, TAGS.CHECK] },
     function () {
       cy.loginRechargeUser();
       cy.assertVisible([
