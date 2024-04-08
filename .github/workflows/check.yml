@@ -10,3 +10,5 @@ jobs:
         run: cd Web-Cypress && npm install
       - name: Lint
         run: cd Web-Cypress && npm run lint
+      - name: Prettier
+        run: cd Web-Cypress && npm run prettier
