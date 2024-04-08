@@ -1,0 +1,15 @@
+{
+  "specPattern": [
+    "cypress/integration/Layout/5-ShopifyPages/BaseURLLayout.js",
+    "cypress/integration/Layout/4-Purchase/Shop/CartLayout.js",
+    "cypress/integration/Layout/4-Purchase/Shop/CollectionsLayout.js",
+    "cypress/integration/End-To-End/4-Purchase/Shop/AllProductsLayoutAndFunctionality.js",
+    "cypress/integration/End-To-End/4-Purchase/Shop/MiniCartContentState.js",
+    "cypress/integration/End-To-End/4-Purchase/Shop/ReviewsQuestionsLayout.js",
+    "cypress/integration/Layout/5-ShopifyPages/MethodsLayout.js",
+    "cypress/integration/Layout/4-Purchase/Shop/ProductsLayout.js",
+    "cypress/integration/End-To-End/7-Miscellaneous/Segment/Product.js",
+    "cypress/integration/Layout/2-GlobalNavigation/ShopifyHeaderFooterLayout.js",
+    "cypress/integration/Layout/5-ShopifyPages/SpecialtyPainLandingPageLayout.js"
+  ]
+}

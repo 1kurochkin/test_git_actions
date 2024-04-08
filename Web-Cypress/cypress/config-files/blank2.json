@@ -1,0 +1,23 @@
+{
+  "baseUrl": "https://qa.pvolve.com",
+  "env": {
+    "APP_BASE_URL": "https://app.qa.pvolve.com",
+    "BASE_URL": "https://qa.pvolve.com",
+    "emailUnsubscribed": "pvolvetestautomation+qa_001@gmail.com",
+    "emailSubscribed": "pvolvetestautomation+qa_012@gmail.com",
+    "rechargeEmail": "automation.test@test.com",
+    "emailP&F": "pvolvetestautomation+qa_013@gmail.com",
+    "emailUnsubscribedPasswordTest": "pvolvetestautomation+qa_004@gmail.com",
+    "emailSubscribedSeries": "pvolvetestautomation+qa_005@gmail.com",
+    "emailSubscribedFTU": "pvolvetestautomation+qa_006@gmail.com",
+    "emailP&FSeries": "pvolvetestautomation+qa_007@gmail.com",
+    "emailOptum": "pvolvetestautomation+qa_011@gmail.com",
+    "emailVideo": "pvolvetestautomation+qa_009@gmail.com",
+    "seriesComplete": "pvolvetestautomation+qa_m005@gmail.com",
+    "password": "Password1234!",
+    "creditCardNumber": "4242424242424242",
+    "creditCardExpiration": "1124",
+    "creditCardCVC": "424",
+    "creditCardZip": "42424"
+  }
+}

@@ -1,0 +1,3 @@
+cd Web-Cypress
+npm run lint
+npm run prettier

@@ -1,0 +1,8 @@
+{
+  "specPattern": [
+    "cypress/integration/End-To-End/3-Streaming/Workouts/*.js",
+    "cypress/integration/End-To-End/6-B2B/Optum/*.js",
+    "cypress/integration/End-To-End/4-Purchase/LegacyCheckout/*.js",
+    "cypress/integration/End-To-End/1-Account/Login/*.js"
+  ]
+}

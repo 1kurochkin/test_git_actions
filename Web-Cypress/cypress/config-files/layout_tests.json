@@ -1,0 +1,3 @@
+{
+  "specPattern": ["cypress/integration/Layout/**/*.js"]
+}

@@ -1,0 +1,7 @@
+{
+  "specPattern": [
+    "cypress/integration/End-To-End/7-Miscellaneous/Lighthouse.js",
+    "cypress/integration/End-To-End/3-Streaming/Challenge/*.js",
+    "cypress/integration/End-To-End/3-Streaming/Classes/*.js"
+  ]
+}

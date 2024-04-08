@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://www.pvolve.com",
+  "env": {
+    "APP_BASE_URL": "https://app.pvolve.com"
+  }
+}

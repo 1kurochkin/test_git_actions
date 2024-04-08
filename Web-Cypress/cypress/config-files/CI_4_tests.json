@@ -1,0 +1,3 @@
+{
+  "specPattern": ["cypress/integration/End-To-End/7-Miscellaneous/Segment/*.js"]
+}

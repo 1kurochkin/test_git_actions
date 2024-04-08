@@ -1,0 +1,8 @@
+{
+  "specPattern": [
+    "cypress/integration/End-To-End/3-Streaming/Series/PhaseAndFunction/*.js",
+    "cypress/integration/End-To-End/3-Streaming/Series/*.js",
+    "cypress/integration/End-To-End/4-Purchase/CustomCheckout/*.js",
+    "cypress/integration/End-To-End/1-Account/Registration/*.js"
+  ]
+}

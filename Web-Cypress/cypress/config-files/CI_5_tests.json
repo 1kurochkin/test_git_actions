@@ -1,0 +1,6 @@
+{
+  "specPattern": [
+    "cypress/integration/End-To-End/2-GlobalNavigation/*.js",
+    "cypress/integration/End-To-End/3-Streaming/MyPlan/*.js"
+  ]
+}
