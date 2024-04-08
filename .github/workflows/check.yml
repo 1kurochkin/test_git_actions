@@ -13,5 +13,5 @@ jobs:
       - name: Lint
         run: cd Web-Cypress && npm run lint
       - name: Tests
-        run: cd Web-Cypress && npm run cy:qa:check
+        run: cd Web-Cypress && npm run cy:qa:check.mac
 
