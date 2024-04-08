@@ -7,6 +7,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install deps
-        run: npm install
+        run: cd web-cypress && npm install
       - name: Lint
         run: npm run lint
