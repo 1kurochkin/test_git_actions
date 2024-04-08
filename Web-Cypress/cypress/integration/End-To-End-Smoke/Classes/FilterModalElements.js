@@ -12,7 +12,7 @@ const tmsId = "@C-8077";
 describe("Classes Test Suite", function () {
   it(
     "Verify filter modal - elements " + issueId + " " + tmsId,
-    { tags: [TAGS.SMOKE] },
+    { tags: [TAGS.SMOKE, TAGS.CHECK] },
     function () {
       cy.loginRechargeUser();
       cy.assertVisible([

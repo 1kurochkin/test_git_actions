@@ -14,7 +14,7 @@ let reservationId = null;
 describe("Live Test Suite", function () {
   it(
     "Verify user is able to reserve a live class " + issueId + " " + tmsId,
-    { tags: [TAGS.SMOKE] },
+    { tags: [TAGS.SMOKE, TAGS.CHECK] },
     function () {
       cy.loginRechargeUserAndStoreAuthToken();
       cy.assertVisible([

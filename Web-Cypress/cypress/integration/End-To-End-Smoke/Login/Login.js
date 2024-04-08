@@ -14,7 +14,7 @@ const tmsId = "@C-7676";
 describe("Login Test Suite", function () {
   it(
     "Log into the app with valid user " + issueId + " " + tmsId,
-    { tags: [TAGS.SMOKE, TAGS.REGRESSION] },
+    { tags: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.CHECK] },
     function () {
       continuePage.visitPage();
       continuePage.getEmailForm().type(Cypress.env("rechargeEmail"));
