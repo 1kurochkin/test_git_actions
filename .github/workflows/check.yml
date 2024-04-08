@@ -12,4 +12,6 @@ jobs:
         run: cd Web-Cypress && npm run prettier
       - name: Lint
         run: cd Web-Cypress && npm run lint
+      - name: Tests
+        run: cd Web-Cypress && npm run cy:qa:check
 
