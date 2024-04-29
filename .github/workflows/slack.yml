@@ -1,14 +1,17 @@
-- name: Send Allure report to Slack
-  on: push
-  env:
-    SLACK_WEBHOOK_URL: ${{ secrets[github.event.client_payload.slack_webhook] }}
-  uses: 8398a7/action-slack@v3
-  with:
-    status: "success"
-    fields: ''
-    text: "Allure Report Link: https://curly-robot-125ba1a2.pages.github.io/${{ github.event.client_payload.worksheet_name }}/${{ github.run_number }}/"
-    channel: ${{ github.event.client_payload.slack_channel }}
-
+name: "Send Allure report to Slack"
+uses: actions/github-script@v6
+id: check-env
+with:
+  result-encoding: string
+  script: |
+    try {
+        const summary = await fetch('https://1kurochkin.github.io/test_git_actions/docs/widgets/summary.json').;
+        const summaryBody = await summary.json()
+        console.log(summaryBody)
+    } catch(err) {
+        core.error("Error while reading or parsing the JSON")
+        core.setFailed(err)
+    }
 
 
 
