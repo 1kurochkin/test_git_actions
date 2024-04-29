@@ -11,7 +11,7 @@ jobs:
             const summary = await fetch(allureReportLink + '/widgets/summary.json').then((res) => res.json());
             const suites = await fetch(allureReportLink + '/widgets/suites.json').then((res) => res.json());
             
-            await fetch(${{secrets.SLACK_WEBHOOK_URL}},  {method: 'POST', body: JSON.stringify({
+            await fetch(`${{secrets.SLACK_WEBHOOK_URL}}`, {method: 'POST', body: JSON.stringify({
               status: "success", 
               mention: "D070P94QG5C",
               if_mention: "always",
