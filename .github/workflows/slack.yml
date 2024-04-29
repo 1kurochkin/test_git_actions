@@ -1,17 +1,8 @@
 name: "Send Allure report to Slack"
 on: push
-uses: actions/github-script@v6
+uses: actions/github-script@v7
 with:
-  result-encoding: string
-  script: |
-    try {
-        const summary = await fetch('https://1kurochkin.github.io/test_git_actions/docs/widgets/summary.json').;
-        const summaryBody = await summary.json()
-        console.log(summaryBody)
-    } catch(err) {
-        core.error("Error while reading or parsing the JSON")
-        core.setFailed(err)
-    }
+  script: console.log('hello')
 
 
 
