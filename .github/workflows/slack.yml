@@ -7,14 +7,13 @@ jobs:
       - uses: actions/github-script@v7
         with:
           script: |
-            const allureReportLink = "https://curly-robot-125ba1a2.pages.github.io/${{ github.event.client_payload.worksheet_name }}/${{ github.run_number }}/"
+            const allureReportLink = "https://1kurochkin.github.io/test_git_actions/docs"
             const summary = await fetch(allureReportLink + '/widgets/summary.json').then((res) => res.json());
             const suites = await fetch(allureReportLink + '/widgets/suites.json').then((res) => res.json());
             
-            await fetch(${{ secrets[github.event.client_payload.slack_webhook] }},  {method: 'POST', body: JSON.stringify({
+            await fetch(${{secrets.SLACK_WEBHOOK_URL}},  {method: 'POST', body: JSON.stringify({
               status: "success", 
-              mention: "U066YFQ8X7A, U03QM6640H5, U03RWM4MR8S, U06FQC10BNK",
-              channel: ${{ github.event.client_payload.slack_channel }},
+              mention: "D070P94QG5C",
               if_mention: "always",
               text: 
                 `Allure Report Link: ${allureReportLink}\n` + 
