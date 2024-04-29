@@ -1,0 +1,37 @@
+{
+  "uid": "116876c0f7572d3f",
+  "name": "Verify user is able to cancel live class reservation @STREAM-2817 @C-7700",
+  "fullName": "Verify user is able to cancel live class reservation @STREAM-2817 @C-7700",
+  "historyId": "fb69f62516cb9e3c0a2a4bcc539c8b1e",
+  "time": { "start": 1714397163561, "stop": 1714397163562, "duration": 1 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Live.VerifyUserIsAbleToCancelLiveClassReservation.js"
+    },
+    { "name": "suite", "value": "Live Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "116876c0f7572d3f.json",
+  "parameterValues": []
+}

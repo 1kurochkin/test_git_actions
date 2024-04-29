@@ -1,0 +1,6 @@
+[
+  { "values": ["https://app.qa.pvolve.com"], "name": "Current_Environment" },
+  { "values": ["darwin"], "name": "OS" },
+  { "values": ["chrome"], "name": "Browser" },
+  { "values": ["124.0.6367.79"], "name": "Version" }
+]

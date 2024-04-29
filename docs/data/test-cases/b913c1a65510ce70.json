@@ -1,0 +1,37 @@
+{
+  "uid": "b913c1a65510ce70",
+  "name": "Remove A La Carte in Mini Cart @ECOMM-2188 @C-8756",
+  "fullName": "Remove A La Carte in Mini Cart @ECOMM-2188 @C-8756",
+  "historyId": "3ab6a1cbc20b5446d934bbda356d1761",
+  "time": { "start": 1714397211649, "stop": 1714397211651, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.MiniCart.RemoveALaCartInMiniCart.js"
+    },
+    { "name": "suite", "value": "Mini Cart Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "b913c1a65510ce70.json",
+  "parameterValues": []
+}

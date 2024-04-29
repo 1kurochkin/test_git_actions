@@ -1,0 +1,37 @@
+{
+  "uid": "24f20423bd38821c",
+  "name": "Increment Bundles in Mini Cart @ECOMM-2172 @C-8693",
+  "fullName": "Increment Bundles in Mini Cart @ECOMM-2172 @C-8693",
+  "historyId": "8d6d4a04c9dac4d0c8ba45704d26e4d5",
+  "time": { "start": 1714397229970, "stop": 1714397229972, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.PDP.IncrementBundlesInMiniCart.js"
+    },
+    { "name": "suite", "value": "Product Description Pages (PDP) Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "24f20423bd38821c.json",
+  "parameterValues": []
+}

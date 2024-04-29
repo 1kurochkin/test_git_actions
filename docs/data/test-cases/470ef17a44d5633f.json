@@ -1,0 +1,37 @@
+{
+  "uid": "470ef17a44d5633f",
+  "name": "Upsell Carousel - Remove from Cart upsell item from Carousel @ECOMM-2199 @C-8992",
+  "fullName": "Upsell Carousel - Remove from Cart upsell item from Carousel @ECOMM-2199 @C-8992",
+  "historyId": "895608721df0256f65a4583179758612",
+  "time": { "start": 1714397214811, "stop": 1714397214813, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.MiniCart.RemoveUpsellItemFromCartFromCarousel.js"
+    },
+    { "name": "suite", "value": "Mini Cart Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "470ef17a44d5633f.json",
+  "parameterValues": []
+}

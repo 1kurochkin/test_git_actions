@@ -1,0 +1,37 @@
+{
+  "uid": "96595776df6f57bc",
+  "name": "Upsell Carousel - Add to Cart from Carousel @ECOMM-2198 @C-8990",
+  "fullName": "Upsell Carousel - Add to Cart from Carousel @ECOMM-2198 @C-8990",
+  "historyId": "1947ee93471abd2a20d77cc96f32d150",
+  "time": { "start": 1714397205568, "stop": 1714397205570, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.MiniCart.AddUpsellItemToCartFromCarousel.js"
+    },
+    { "name": "suite", "value": "Mini Cart Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "96595776df6f57bc.json",
+  "parameterValues": []
+}

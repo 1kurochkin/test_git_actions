@@ -1,0 +1,37 @@
+{
+  "uid": "676ac372b0f0b6f8",
+  "name": "Add To Favorites From Workout Detail Pane @STREAM-2680 @C-8065",
+  "fullName": "Add To Favorites From Workout Detail Pane @STREAM-2680 @C-8065",
+  "historyId": "3a77fcdf9a2e00013b53c2f0fd6c3420",
+  "time": { "start": 1714397184695, "stop": 1714397184697, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Home.AddToFavoritesFromWorkoutDetailPane.js"
+    },
+    { "name": "suite", "value": "Home Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "676ac372b0f0b6f8.json",
+  "parameterValues": []
+}

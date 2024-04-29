@@ -1,0 +1,37 @@
+{
+  "uid": "4ce99c139366f104",
+  "name": "Verify User is able to leave series from home page @STREAM-2926 @C-8070",
+  "fullName": "Verify User is able to leave series from home page @STREAM-2926 @C-8070",
+  "historyId": "6e58c0e9631cc4823b7ba1066a83d798",
+  "time": { "start": 1714397193521, "stop": 1714397193524, "duration": 3 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Home.VerifyUserIsAbleLeaveSeriesFromHomePage.js"
+    },
+    { "name": "suite", "value": "Home Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "4ce99c139366f104.json",
+  "parameterValues": []
+}

@@ -1,0 +1,37 @@
+{
+  "uid": "af64bb6869f326f7",
+  "name": "Verify Home page elements (Enrolled in a series) @STREAM-2766 @C-8055",
+  "fullName": "Verify Home page elements (Enrolled in a series) @STREAM-2766 @C-8055",
+  "historyId": "6fada0f8483a931cee1cb044200f08b3",
+  "time": { "start": 1714397189018, "stop": 1714397189020, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Home.VerifyHomeElementsEnrolledInSeries.js"
+    },
+    { "name": "suite", "value": "Home Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "af64bb6869f326f7.json",
+  "parameterValues": []
+}

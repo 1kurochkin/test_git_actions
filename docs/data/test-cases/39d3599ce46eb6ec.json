@@ -1,0 +1,37 @@
+{
+  "uid": "39d3599ce46eb6ec",
+  "name": "Decrement A La Carte from Mini Cart @ECOMM-2187 @C-8236",
+  "fullName": "Decrement A La Carte from Mini Cart @ECOMM-2187 @C-8236",
+  "historyId": "031049a1829c9d5ed80b19112793fe06",
+  "time": { "start": 1714397206633, "stop": 1714397206635, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.MiniCart.DecrementALaCartInMiniCart.js"
+    },
+    { "name": "suite", "value": "Mini Cart Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "39d3599ce46eb6ec.json",
+  "parameterValues": []
+}

@@ -1,0 +1,37 @@
+{
+  "uid": "4cd0446e034f5d4e",
+  "name": "Verify Sort by is working @STREAM-2929 @C-8073",
+  "fullName": "Verify Sort by is working @STREAM-2929 @C-8073",
+  "historyId": "34b898316347d5b9f735c1145e5655cb",
+  "time": { "start": 1714397145618, "stop": 1714397145620, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Classes.VerifySortByIsWorking.js"
+    },
+    { "name": "suite", "value": "Classes Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "4cd0446e034f5d4e.json",
+  "parameterValues": []
+}

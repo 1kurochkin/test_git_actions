@@ -1,0 +1,1054 @@
+{
+  "uid": "c3baf33e8725ac85",
+  "name": "Verify Workout Detail Pane elements @STREAM-2683 @C-8063",
+  "fullName": "Verify Workout Detail Pane elements @STREAM-2683 @C-8063",
+  "historyId": "3ef52d64a37a98f7b21897c8d30fb1ca",
+  "time": { "start": 1714397195628, "stop": 1714397202445, "duration": 6817 },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "\"before each\" hook",
+        "time": {
+          "start": 1714397195629,
+          "stop": 1714397195652,
+          "duration": 23
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "setMetadataToAllureReport (\"[Object]\")",
+            "time": {
+              "start": 1714397195649,
+              "stop": 1714397195650,
+              "duration": 1
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 1,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "loginRechargeUser",
+        "time": {
+          "start": 1714397195653,
+          "stop": 1714397199587,
+          "duration": 3934
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "visit https://app.qa.pvolve.com/continue -> 302: https://app.qa.pvolve.com/continue/",
+            "time": {
+              "start": 1714397195653,
+              "stop": 1714397198146,
+              "duration": 2493
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get input[name=\"email\"]",
+            "time": {
+              "start": 1714397198146,
+              "stop": 1714397198155,
+              "duration": 9
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "type automation.test+1@test.com",
+            "time": {
+              "start": 1714397198155,
+              "stop": 1714397198711,
+              "duration": 556
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get button[type=\"submit\"]",
+            "time": {
+              "start": 1714397198711,
+              "stop": 1714397198713,
+              "duration": 2
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "click",
+            "time": {
+              "start": 1714397198713,
+              "stop": 1714397198802,
+              "duration": 89
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get input[name=\"password\"]",
+            "time": {
+              "start": 1714397198802,
+              "stop": 1714397199225,
+              "duration": 423
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "new url https://app.qa.pvolve.com/login",
+            "time": {
+              "start": 1714397199225,
+              "stop": 1714397199225,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "type Password1234!",
+            "time": {
+              "start": 1714397199225,
+              "stop": 1714397199508,
+              "duration": 283
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get button[type=\"submit\"]",
+            "time": {
+              "start": 1714397199508,
+              "stop": 1714397199511,
+              "duration": 3
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "click",
+            "time": {
+              "start": 1714397199511,
+              "stop": 1714397199587,
+              "duration": 76
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 10,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"menu-home\"]",
+        "time": {
+          "start": 1714397199587,
+          "stop": 1714397201592,
+          "duration": 2005
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "page load --page loaded--",
+        "time": {
+          "start": 1714397201592,
+          "stop": 1714397201592,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "new url https://app.qa.pvolve.com/home",
+        "time": {
+          "start": 1714397201592,
+          "stop": 1714397201592,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"menu-classes\"]",
+        "time": {
+          "start": 1714397201592,
+          "stop": 1714397201601,
+          "duration": 9
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"workout-card-title\"]",
+        "time": {
+          "start": 1714397201601,
+          "stop": 1714397201901,
+          "duration": 300
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "first",
+        "time": {
+          "start": 1714397201901,
+          "stop": 1714397201904,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-12' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-13' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-14' } ]\")",
+        "time": {
+          "start": 1714397201905,
+          "stop": 1714397201921,
+          "duration": 16
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397201905,
+              "stop": 1714397201910,
+              "duration": 5
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeLarge.MuiButton-textSizeLarge.selected.css-bi6eze>** to be **visible**",
+            "time": {
+              "start": 1714397201910,
+              "stop": 1714397201910,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397201910,
+              "stop": 1714397201916,
+              "duration": 6
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeLarge.MuiButton-textSizeLarge.css-bi6eze>** to be **visible**",
+            "time": {
+              "start": 1714397201916,
+              "stop": 1714397201916,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397201916,
+              "stop": 1714397201921,
+              "duration": 5
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<h6.MuiTypography-root.MuiTypography-subtitle1.css-1oc5n83>** to be **visible**",
+            "time": {
+              "start": 1714397201921,
+              "stop": 1714397201921,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 6,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "intercept (\"GET\"; \"**/previewVideo\")",
+        "time": {
+          "start": 1714397201921,
+          "stop": 1714397201948,
+          "duration": 27
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "as (\"previewVideo\")",
+        "time": {
+          "start": 1714397201948,
+          "stop": 1714397201949,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"workout-card-title\"]",
+        "time": {
+          "start": 1714397201949,
+          "stop": 1714397201978,
+          "duration": 29
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "first",
+        "time": {
+          "start": 1714397201978,
+          "stop": 1714397201981,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "click {force: true}",
+        "time": {
+          "start": 1714397201981,
+          "stop": 1714397202100,
+          "duration": 119
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "new url https://app.qa.pvolve.com/home/detail/20-min-full-body-sculpt-OFF0423-S13",
+        "time": {
+          "start": 1714397202100,
+          "stop": 1714397202100,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "wait @previewVideo",
+        "time": {
+          "start": 1714397202100,
+          "stop": 1714397202102,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get svg[data-test=\"WorkoutDetailsPane-Play-Button\"]",
+        "time": {
+          "start": 1714397202103,
+          "stop": 1714397202105,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get button[data-test=\"WorkoutDetailsPane-Close-Button\"]",
+        "time": {
+          "start": 1714397202105,
+          "stop": 1714397202106,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"workout-release-date\"]",
+        "time": {
+          "start": 1714397202107,
+          "stop": 1714397202108,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get button[data-test=\"WorkoutDetailsPane-Favorite-Button\"]",
+        "time": {
+          "start": 1714397202108,
+          "stop": 1714397202110,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"avatar\"] > img",
+        "time": {
+          "start": 1714397202110,
+          "stop": 1714397202112,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"avatar-trainers\"] > [data-test-id=\"name\"]",
+        "time": {
+          "start": 1714397202112,
+          "stop": 1714397202113,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"about\"]",
+        "time": {
+          "start": 1714397202113,
+          "stop": 1714397202115,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"class-duration\"]",
+        "time": {
+          "start": 1714397202115,
+          "stop": 1714397202116,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"pacing\"]",
+        "time": {
+          "start": 1714397202116,
+          "stop": 1714397202117,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"equipment\"]",
+        "time": {
+          "start": 1714397202117,
+          "stop": 1714397202119,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"body-focus\"]",
+        "time": {
+          "start": 1714397202119,
+          "stop": 1714397202120,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertExist (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-24' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-25' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-26' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-27' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-28' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-29' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-30' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-31' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-32' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-33' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-34' } ]\")",
+        "time": {
+          "start": 1714397202121,
+          "stop": 1714397202121,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get button[data-test=\"WorkoutDetailsPane-Close-Button\"]",
+        "time": {
+          "start": 1714397202141,
+          "stop": 1714397202142,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "click {force: true}",
+        "time": {
+          "start": 1714397202142,
+          "stop": 1714397202236,
+          "duration": 94
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "new url https://app.qa.pvolve.com/home",
+        "time": {
+          "start": 1714397202236,
+          "stop": 1714397202236,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "intercept (\"GET\"; \"https://stream.mux.com/8lVkeWP01UTbAl13MWGklP93kZIcwvKOdx01uu02Y02j201s.m3u8\")",
+        "time": {
+          "start": 1714397202236,
+          "stop": 1714397202240,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "as (\"videoPlayer\")",
+        "time": {
+          "start": 1714397202240,
+          "stop": 1714397202240,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"workout-card-title\"]",
+        "time": {
+          "start": 1714397202240,
+          "stop": 1714397202256,
+          "duration": 16
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "first",
+        "time": {
+          "start": 1714397202256,
+          "stop": 1714397202258,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "click {force: true}",
+        "time": {
+          "start": 1714397202258,
+          "stop": 1714397202353,
+          "duration": 95
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "new url https://app.qa.pvolve.com/home/detail/20-min-full-body-sculpt-OFF0423-S13",
+        "time": {
+          "start": 1714397202353,
+          "stop": 1714397202353,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "validateResponseStatus (\"@videoPlayer\"; \"200\")",
+        "time": {
+          "start": 1714397202354,
+          "stop": 1714397202445,
+          "duration": 91
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "wait @videoPlayer",
+            "time": {
+              "start": 1714397202354,
+              "stop": 1714397202443,
+              "duration": 89
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "its .response.statusCode",
+            "time": {
+              "start": 1714397202443,
+              "stop": 1714397202445,
+              "duration": 2
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **200** to equal **200**",
+            "time": {
+              "start": 1714397202445,
+              "stop": 1714397202445,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [
+              { "name": "actual", "value": "200" },
+              { "name": "expected", "value": "200" }
+            ],
+            "hasContent": true,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 3,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "hasContent": true,
+    "shouldDisplayMessage": false,
+    "stepsCount": 58,
+    "attachmentsCount": 0,
+    "attachmentStep": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Home.VerifyWorkoutDetailPaneElements.js"
+    },
+    { "name": "suite", "value": "Home Test Suite" },
+    { "name": "owner", "value": "Carlos Rodríguez" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [
+    {
+      "name": "@STREAM-2683",
+      "url": "https://pvolve.atlassian.net/browse/STREAM-2683",
+      "type": "issue"
+    },
+    {
+      "name": "@C-8063",
+      "url": "https://pvolve.testrail.io/index.php?/cases/view/8063",
+      "type": "tms"
+    }
+  ],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "owner": "Carlos Rodríguez",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "c3baf33e8725ac85.json",
+  "parameterValues": []
+}

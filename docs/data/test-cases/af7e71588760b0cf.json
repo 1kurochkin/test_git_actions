@@ -1,0 +1,37 @@
+{
+  "uid": "af7e71588760b0cf",
+  "name": "Verify Categories at the top of the page @STREAM-2578 @C-8071",
+  "fullName": "Verify Categories at the top of the page @STREAM-2578 @C-8071",
+  "historyId": "00f10e31acc83e28713e7680a7960661",
+  "time": { "start": 1714397130267, "stop": 1714397130269, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Classes.ClassesCategoriesInteraction.js"
+    },
+    { "name": "suite", "value": "Classes Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "af7e71588760b0cf.json",
+  "parameterValues": []
+}

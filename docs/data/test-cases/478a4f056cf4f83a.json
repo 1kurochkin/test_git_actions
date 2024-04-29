@@ -1,0 +1,37 @@
+{
+  "uid": "478a4f056cf4f83a",
+  "name": "Header Navigation Locations @STREAM-2679 @C-7681",
+  "fullName": "Header Navigation Locations @STREAM-2679 @C-7681",
+  "historyId": "7018f5632bd4c035b31cf13fb62c67c1",
+  "time": { "start": 1714397148724, "stop": 1714397148725, "duration": 1 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.HeaderNavigation.HeaderNavigation.js"
+    },
+    { "name": "suite", "value": "Header Navigation Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "478a4f056cf4f83a.json",
+  "parameterValues": []
+}

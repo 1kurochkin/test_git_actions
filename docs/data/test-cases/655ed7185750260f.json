@@ -1,0 +1,37 @@
+{
+  "uid": "655ed7185750260f",
+  "name": "Removing TTB Afterpay in Mini Cart @ECOMM-2185 @C-8755",
+  "fullName": "Removing TTB Afterpay in Mini Cart @ECOMM-2185 @C-8755",
+  "historyId": "fd94040951418a480737d45d16237582",
+  "time": { "start": 1714397213715, "stop": 1714397213717, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.MiniCart.RemoveTTBAfterpayInMiniCart.js"
+    },
+    { "name": "suite", "value": "Product Description Pages (PDP) Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "655ed7185750260f.json",
+  "parameterValues": []
+}

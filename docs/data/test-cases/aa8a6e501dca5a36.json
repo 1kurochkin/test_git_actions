@@ -1,0 +1,1717 @@
+{
+  "uid": "aa8a6e501dca5a36",
+  "name": "Load Bundle Product PDP @ECOMM-2137 @C-8571",
+  "fullName": "Load Bundle Product PDP @ECOMM-2137 @C-8571",
+  "historyId": "6fbe42c44b56dd18b339e99f67120012",
+  "time": { "start": 1714397230987, "stop": 1714397240029, "duration": 9042 },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "\"before each\" hook",
+        "time": {
+          "start": 1714397230988,
+          "stop": 1714397231017,
+          "duration": 29
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "setMetadataToAllureReport (\"[Object]\")",
+            "time": {
+              "start": 1714397231015,
+              "stop": 1714397231015,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 1,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "setShopifyCookie",
+        "time": {
+          "start": 1714397231019,
+          "stop": 1714397231029,
+          "duration": 10
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "setCookie storefront_digest, 97c1dfd916f05d293a585689fc770fb05f69c596f05c3cbe73036fae0643b5be",
+            "time": {
+              "start": 1714397231019,
+              "stop": 1714397231029,
+              "duration": 10
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 1,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "visit /",
+        "time": {
+          "start": 1714397231029,
+          "stop": 1714397233781,
+          "duration": 2752
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get div[id=\"main-header\"]",
+        "time": {
+          "start": 1714397233781,
+          "stop": 1714397233786,
+          "duration": 5
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [id=\"MainContent\"]",
+        "time": {
+          "start": 1714397233787,
+          "stop": 1714397233788,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get div[id=\"shopify-section-footer\"]",
+        "time": {
+          "start": 1714397233788,
+          "stop": 1714397233789,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-13' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-14' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-15' } ]\")",
+        "time": {
+          "start": 1714397233790,
+          "stop": 1714397233804,
+          "duration": 14
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397233790,
+              "stop": 1714397233796,
+              "duration": 6
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<div#main-header.px-4.tablet:px-10.m-auto.bg-ultrawhite.z-50>** to be **visible**",
+            "time": {
+              "start": 1714397233796,
+              "stop": 1714397233796,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397233796,
+              "stop": 1714397233801,
+              "duration": 5
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<main#MainContent.content-for-layout.focus-none>** to be **visible**",
+            "time": {
+              "start": 1714397233801,
+              "stop": 1714397233801,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397233801,
+              "stop": 1714397233804,
+              "duration": 3
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<div#shopify-section-footer.shopify-section>** to be **visible**",
+            "time": {
+              "start": 1714397233804,
+              "stop": 1714397233804,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 6,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get li[x-data*=\"showshopDropdown \"] > span",
+        "time": {
+          "start": 1714397233804,
+          "stop": 1714397233805,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "trigger mouseover, {force: true}",
+        "time": {
+          "start": 1714397233806,
+          "stop": 1714397233808,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get a[data-cta-name=\"primarynav-bundles\"]",
+        "time": {
+          "start": 1714397233808,
+          "stop": 1714397233810,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "click",
+        "time": {
+          "start": 1714397233810,
+          "stop": 1714397233973,
+          "duration": 163
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "page load --waiting for new page to load--",
+        "time": {
+          "start": 1714397233973,
+          "stop": 1714397233973,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "new url https://qa.pvolve.com/collections/bundles",
+        "time": {
+          "start": 1714397233973,
+          "stop": 1714397236962,
+          "duration": 2989
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [id*=\"product-comparison\"] h2",
+        "time": {
+          "start": 1714397236961,
+          "stop": 1714397236961,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-19' } ]\")",
+        "time": {
+          "start": 1714397236962,
+          "stop": 1714397236966,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397236962,
+              "stop": 1714397236966,
+              "duration": 4
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<h2.h2>** to be **visible**",
+            "time": {
+              "start": 1714397236966,
+              "stop": 1714397236966,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 2,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get a[href*=\"total-transformation-bundle\"]",
+        "time": {
+          "start": 1714397236966,
+          "stop": 1714397236968,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "contains Total Transformation",
+        "time": {
+          "start": 1714397236968,
+          "stop": 1714397236972,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "click",
+        "time": {
+          "start": 1714397236972,
+          "stop": 1714397237075,
+          "duration": 103
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "page load --waiting for new page to load--",
+        "time": {
+          "start": 1714397237075,
+          "stop": 1714397237075,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "new url https://qa.pvolve.com/products/total-transformation-bundle",
+        "time": {
+          "start": 1714397237075,
+          "stop": 1714397239908,
+          "duration": 2833
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "get h1[class*=\"font-RightGroteskCompactBlack\"]",
+            "time": {
+              "start": 1714397239874,
+              "stop": 1714397239876,
+              "duration": 2
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get div[class*=\"product-page-carousel-thumbs\"]",
+            "time": {
+              "start": 1714397239877,
+              "stop": 1714397239879,
+              "duration": 2
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get div.product-page-carousel div.swiper-slide-active",
+            "time": {
+              "start": 1714397239879,
+              "stop": 1714397239881,
+              "duration": 2
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get [id=\"product-price\"]",
+            "time": {
+              "start": 1714397239881,
+              "stop": 1714397239882,
+              "duration": 1
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get [class*=\"product-description\"]",
+            "time": {
+              "start": 1714397239882,
+              "stop": 1714397239884,
+              "duration": 2
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get [id=\"reviews\"]",
+            "time": {
+              "start": 1714397239884,
+              "stop": 1714397239885,
+              "duration": 1
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-35' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-36' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-37' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-38' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-39' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-40' } ]\")",
+            "time": {
+              "start": 1714397239885,
+              "stop": 1714397239908,
+              "duration": 23
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "scrollIntoView",
+                "time": {
+                  "start": 1714397239886,
+                  "stop": 1714397239889,
+                  "duration": 3
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "assert expected **<h1.font-RightGroteskCompactBlack.uppercase.text-[34px].tablet:text-3xl.font-bold>** to be **visible**",
+                "time": {
+                  "start": 1714397239889,
+                  "stop": 1714397239889,
+                  "duration": 0
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "scrollIntoView",
+                "time": {
+                  "start": 1714397239889,
+                  "stop": 1714397239893,
+                  "duration": 4
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "assert expected **<div.swiper.product-page-carousel-thumbs.hidden.desktop:block.swiper-initialized.swiper-vertical.swiper-thumbs>** to be **visible**",
+                "time": {
+                  "start": 1714397239893,
+                  "stop": 1714397239893,
+                  "duration": 0
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "scrollIntoView",
+                "time": {
+                  "start": 1714397239893,
+                  "stop": 1714397239897,
+                  "duration": 4
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "assert expected **<div.swiper-slide.h-full.swiper-slide-active>** to be **visible**",
+                "time": {
+                  "start": 1714397239897,
+                  "stop": 1714397239897,
+                  "duration": 0
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "scrollIntoView",
+                "time": {
+                  "start": 1714397239897,
+                  "stop": 1714397239902,
+                  "duration": 5
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "assert expected **<p#product-price.font-bold>** to be **visible**",
+                "time": {
+                  "start": 1714397239902,
+                  "stop": 1714397239902,
+                  "duration": 0
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "scrollIntoView",
+                "time": {
+                  "start": 1714397239902,
+                  "stop": 1714397239906,
+                  "duration": 4
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "assert expected **<div.product-description.mt-3.leading-6>** to be **visible**",
+                "time": {
+                  "start": 1714397239905,
+                  "stop": 1714397239905,
+                  "duration": 0
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "scrollIntoView",
+                "time": {
+                  "start": 1714397239906,
+                  "stop": 1714397239908,
+                  "duration": 2
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "assert expected **<div#reviews.pt-12.pb-10.px-8.desktop:px-0.desktop:w-[744px].m-auto>** to be **visible**",
+                "time": {
+                  "start": 1714397239908,
+                  "stop": 1714397239908,
+                  "duration": 0
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": true,
+            "shouldDisplayMessage": false,
+            "stepsCount": 12,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 19,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get p",
+        "time": {
+          "start": 1714397239908,
+          "stop": 1714397239921,
+          "duration": 13
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "contains 30-Day Returns",
+        "time": {
+          "start": 1714397239921,
+          "stop": 1714397239923,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get p",
+        "time": {
+          "start": 1714397239923,
+          "stop": 1714397239934,
+          "duration": 11
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "contains Free Ground Shipping & Domestic Returns",
+        "time": {
+          "start": 1714397239934,
+          "stop": 1714397239937,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get h6",
+        "time": {
+          "start": 1714397239937,
+          "stop": 1714397239941,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "contains Whats included",
+        "time": {
+          "start": 1714397239941,
+          "stop": 1714397239942,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get h6",
+        "time": {
+          "start": 1714397239942,
+          "stop": 1714397239945,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "contains Results",
+        "time": {
+          "start": 1714397239945,
+          "stop": 1714397239946,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get h6",
+        "time": {
+          "start": 1714397239946,
+          "stop": 1714397239949,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "contains Home Trial",
+        "time": {
+          "start": 1714397239949,
+          "stop": 1714397239951,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get h3",
+        "time": {
+          "start": 1714397239951,
+          "stop": 1714397239953,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "contains 3 Signature Pieces",
+        "time": {
+          "start": 1714397239953,
+          "stop": 1714397239957,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "parentsUntil div[x-data*=\"$store\"]",
+        "time": {
+          "start": 1714397239957,
+          "stop": 1714397239959,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get h3",
+        "time": {
+          "start": 1714397239959,
+          "stop": 1714397239961,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "contains 8 more sculpting",
+        "time": {
+          "start": 1714397239961,
+          "stop": 1714397239962,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "parentsUntil div[x-data*=\"$store\"]",
+        "time": {
+          "start": 1714397239962,
+          "stop": 1714397239964,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get h3",
+        "time": {
+          "start": 1714397239964,
+          "stop": 1714397239966,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "contains 2 Recovery Tools",
+        "time": {
+          "start": 1714397239966,
+          "stop": 1714397239967,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "parentsUntil div[x-data*=\"$store\"]",
+        "time": {
+          "start": 1714397239967,
+          "stop": 1714397239969,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get h3",
+        "time": {
+          "start": 1714397239969,
+          "stop": 1714397239971,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "contains Ultimate Streaming Membership",
+        "time": {
+          "start": 1714397239971,
+          "stop": 1714397239972,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "parentsUntil div[x-data*=\"$store\"]",
+        "time": {
+          "start": 1714397239972,
+          "stop": 1714397239974,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "eq 0",
+        "time": {
+          "start": 1714397239974,
+          "stop": 1714397239975,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get h3",
+        "time": {
+          "start": 1714397239975,
+          "stop": 1714397239977,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "contains Explore Class Types",
+        "time": {
+          "start": 1714397239977,
+          "stop": 1714397239979,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "parentsUntil div[x-data*=\"$store\"]",
+        "time": {
+          "start": 1714397239979,
+          "stop": 1714397239981,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "eq 0",
+        "time": {
+          "start": 1714397239981,
+          "stop": 1714397239982,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-23' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-24' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-25' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-26' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-27' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-28' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-29' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-30' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-31' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-32' } ]\")",
+        "time": {
+          "start": 1714397239983,
+          "stop": 1714397240028,
+          "duration": 45
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397239984,
+              "stop": 1714397239988,
+              "duration": 4
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<p>** to be **visible**",
+            "time": {
+              "start": 1714397239988,
+              "stop": 1714397239988,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397239988,
+              "stop": 1714397239993,
+              "duration": 5
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<p>** to be **visible**",
+            "time": {
+              "start": 1714397239993,
+              "stop": 1714397239993,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397239993,
+              "stop": 1714397239996,
+              "duration": 3
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<h6.font-Muller.tracking-normal.text-base.font-medium.capitalize>** to be **visible**",
+            "time": {
+              "start": 1714397239996,
+              "stop": 1714397239996,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397239996,
+              "stop": 1714397240000,
+              "duration": 4
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<h6.font-Muller.tracking-normal.text-base.font-medium>** to be **visible**",
+            "time": {
+              "start": 1714397240000,
+              "stop": 1714397240000,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397240000,
+              "stop": 1714397240005,
+              "duration": 5
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<h6.font-Muller.tracking-normal.text-base.font-medium>** to be **visible**",
+            "time": {
+              "start": 1714397240005,
+              "stop": 1714397240005,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397240005,
+              "stop": 1714397240009,
+              "duration": 4
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<div.text-center.px-6>** to be **visible**",
+            "time": {
+              "start": 1714397240009,
+              "stop": 1714397240009,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397240009,
+              "stop": 1714397240013,
+              "duration": 4
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<div.text-center.px-6>** to be **visible**",
+            "time": {
+              "start": 1714397240013,
+              "stop": 1714397240013,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397240013,
+              "stop": 1714397240019,
+              "duration": 6
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<div.text-center.px-6>** to be **visible**",
+            "time": {
+              "start": 1714397240019,
+              "stop": 1714397240019,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397240019,
+              "stop": 1714397240023,
+              "duration": 4
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<div.text-center.px-6.tablet:px-10.desktop:px-20>** to be **visible**",
+            "time": {
+              "start": 1714397240023,
+              "stop": 1714397240023,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397240023,
+              "stop": 1714397240028,
+              "duration": 5
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<div.text-center.px-6>** to be **visible**",
+            "time": {
+              "start": 1714397240028,
+              "stop": 1714397240028,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 20,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "hasContent": true,
+    "shouldDisplayMessage": false,
+    "stepsCount": 97,
+    "attachmentsCount": 0,
+    "attachmentStep": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.PDP.LoadBundleProduct.js"
+    },
+    { "name": "suite", "value": "Product Description Pages (PDP) Test Suite" },
+    { "name": "owner", "value": "Carlos Rodríguez" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [
+    {
+      "name": "@ECOMM-2137",
+      "url": "https://pvolve.atlassian.net/browse/ECOMM-2137",
+      "type": "issue"
+    },
+    {
+      "name": "@C-8571",
+      "url": "https://pvolve.testrail.io/index.php?/cases/view/8571",
+      "type": "tms"
+    }
+  ],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "owner": "Carlos Rodríguez",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "aa8a6e501dca5a36.json",
+  "parameterValues": []
+}

@@ -1,0 +1,37 @@
+{
+  "uid": "467ae24aab3beb06",
+  "name": "Verify Carousel Content with TTB with after pay in Cart @ECOMM-2207 @C-8995",
+  "fullName": "Verify Carousel Content with TTB with after pay in Cart @ECOMM-2207 @C-8995",
+  "historyId": "cfe2a2cd390a9e5ac28004042a5951d2",
+  "time": { "start": 1714397218064, "stop": 1714397218065, "duration": 1 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.MiniCart.VerifyCarouselContentWithTTBAfterPayInCart.js"
+    },
+    { "name": "suite", "value": "Shopping Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "467ae24aab3beb06.json",
+  "parameterValues": []
+}

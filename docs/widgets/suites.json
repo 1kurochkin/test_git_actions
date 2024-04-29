@@ -1,0 +1,125 @@
+{
+  "total": 10,
+  "items": [
+    {
+      "uid": "06ccaf418bc43be6e43358677e9454e5",
+      "name": "Home Test Suite",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 12,
+        "passed": 1,
+        "unknown": 0,
+        "total": 13
+      }
+    },
+    {
+      "uid": "8e208d88742adcb4447bc2a86527e19f",
+      "name": "Product Description Pages (PDP) Test Suite",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 11,
+        "passed": 1,
+        "unknown": 0,
+        "total": 12
+      }
+    },
+    {
+      "uid": "063117803aa6aa71f1020bf6a82ef5b0",
+      "name": "Classes Test Suite",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 10,
+        "passed": 1,
+        "unknown": 0,
+        "total": 11
+      }
+    },
+    {
+      "uid": "ae61d958dead09315d0932202ea4e421",
+      "name": "Live Test Suite",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 3,
+        "passed": 1,
+        "unknown": 0,
+        "total": 4
+      }
+    },
+    {
+      "uid": "6987f36ae2d7fc364278176c245ab12e",
+      "name": "Login Test Suite",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 2,
+        "passed": 1,
+        "unknown": 0,
+        "total": 3
+      }
+    },
+    {
+      "uid": "fff4e18f3411a1589073a1d2b82143bf",
+      "name": "Mini Cart Test Suite",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 9,
+        "passed": 0,
+        "unknown": 0,
+        "total": 9
+      }
+    },
+    {
+      "uid": "0c9c409fef8c46503aab72aee852a604",
+      "name": "Header Navigation Test Suite",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 7,
+        "passed": 0,
+        "unknown": 0,
+        "total": 7
+      }
+    },
+    {
+      "uid": "b1d63ece4115770fbb233a5984aa7985",
+      "name": "Shopping Test Suite",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 6,
+        "passed": 0,
+        "unknown": 0,
+        "total": 6
+      }
+    },
+    {
+      "uid": "d5b6f30a092118b6f4b0509c561d4c4a",
+      "name": "Series Test Suite",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 4,
+        "passed": 0,
+        "unknown": 0,
+        "total": 4
+      }
+    },
+    {
+      "uid": "f846b40290051f13d4836a69e3a20f8d",
+      "name": "Activation Code Test Suite",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 3,
+        "passed": 0,
+        "unknown": 0,
+        "total": 3
+      }
+    }
+  ]
+}

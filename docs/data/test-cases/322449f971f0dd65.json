@@ -1,0 +1,37 @@
+{
+  "uid": "322449f971f0dd65",
+  "name": "Header Navigation Shop @STREAM-2679 @C-7680",
+  "fullName": "Header Navigation Shop @STREAM-2679 @C-7680",
+  "historyId": "5f62650d6422638059ef912d4f13269b",
+  "time": { "start": 1714397148723, "stop": 1714397148724, "duration": 1 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.HeaderNavigation.HeaderNavigation.js"
+    },
+    { "name": "suite", "value": "Header Navigation Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "322449f971f0dd65.json",
+  "parameterValues": []
+}

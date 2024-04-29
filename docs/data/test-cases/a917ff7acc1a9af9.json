@@ -1,0 +1,37 @@
+{
+  "uid": "a917ff7acc1a9af9",
+  "name": "Decrement Trial in Mini Cart @ECOMM-2209 @C-8996",
+  "fullName": "Decrement Trial in Mini Cart @ECOMM-2209 @C-8996",
+  "historyId": "0a256e4b3b6c846e66eca06f7da93095",
+  "time": { "start": 1714397208619, "stop": 1714397208620, "duration": 1 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.MiniCart.DecrementTrialInMiniCart.js"
+    },
+    { "name": "suite", "value": "Mini Cart Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "a917ff7acc1a9af9.json",
+  "parameterValues": []
+}

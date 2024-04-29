@@ -1,0 +1,37 @@
+{
+  "uid": "7e6d21b482adba1c",
+  "name": "AMZ - Add TTB Subscription @ECOMM-2202 @C-8998",
+  "fullName": "AMZ - Add TTB Subscription @ECOMM-2202 @C-8998",
+  "historyId": "87523344743be43514a3fc22e4046af4",
+  "time": { "start": 1714397245481, "stop": 1714397245483, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.Activation-Code-Pages.Amazon-Activation-Code.AMZAddTTBToCartWithTTBInCart.js"
+    },
+    { "name": "suite", "value": "Activation Code Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "7e6d21b482adba1c.json",
+  "parameterValues": []
+}

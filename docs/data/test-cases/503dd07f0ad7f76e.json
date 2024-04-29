@@ -1,0 +1,37 @@
+{
+  "uid": "503dd07f0ad7f76e",
+  "name": "AMZ - Add digital membership with trial in cart @ECOMM-2203 @C-8999",
+  "fullName": "AMZ - Add digital membership with trial in cart @ECOMM-2203 @C-8999",
+  "historyId": "c11f149c98a0f2f78d91503b9f840422",
+  "time": { "start": 1714397244369, "stop": 1714397244371, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.Activation-Code-Pages.Amazon-Activation-Code.AMZAddDigitalMembershipToCartWithTrialInCart.js"
+    },
+    { "name": "suite", "value": "Activation Code Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "503dd07f0ad7f76e.json",
+  "parameterValues": []
+}

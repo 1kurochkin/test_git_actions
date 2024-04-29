@@ -1,0 +1,37 @@
+{
+  "uid": "3f6f62740e5facd5",
+  "name": "Enroll to a series @STREAM-2685 @C-7702",
+  "fullName": "Enroll to a series @STREAM-2685 @C-7702",
+  "historyId": "55b1ced0548fd57c7e9cb60435e1d885",
+  "time": { "start": 1714397180416, "stop": 1714397180418, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Series.EnrollToSeries.js"
+    },
+    { "name": "suite", "value": "Series Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "3f6f62740e5facd5.json",
+  "parameterValues": []
+}

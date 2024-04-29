@@ -1,0 +1,37 @@
+{
+  "uid": "8108f40519b8e0f6",
+  "name": "Verify series is updated when a workout is completed @STREAM-2924 @C-7689",
+  "fullName": "Verify series is updated when a workout is completed @STREAM-2924 @C-7689",
+  "historyId": "f3123783943d8e9edf67edc54329e14e",
+  "time": { "start": 1714397191372, "stop": 1714397191373, "duration": 1 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Home.VerifySeriesIsUpdatedAfterWorkoutCompletion.js"
+    },
+    { "name": "suite", "value": "Home Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "8108f40519b8e0f6.json",
+  "parameterValues": []
+}

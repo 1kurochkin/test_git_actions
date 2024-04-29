@@ -1,0 +1,37 @@
+{
+  "uid": "de68f7c73d999de7",
+  "name": "Verify Workout Detail Pane is opening @STREAM-2682 @C-7686",
+  "fullName": "Verify Workout Detail Pane is opening @STREAM-2682 @C-7686",
+  "historyId": "380b10035be8b7623d42b5bcf0f852e7",
+  "time": { "start": 1714397204554, "stop": 1714397204555, "duration": 1 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Home.VerifyWorkoutDetailPaneElementsIsOpening.js"
+    },
+    { "name": "suite", "value": "Home Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "de68f7c73d999de7.json",
+  "parameterValues": []
+}

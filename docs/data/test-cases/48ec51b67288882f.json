@@ -1,0 +1,37 @@
+{
+  "uid": "48ec51b67288882f",
+  "name": " Verify User is able to reproduce a workout from Workout Detail Pane @STREAM-2820 @C-7690",
+  "fullName": " Verify User is able to reproduce a workout from Workout Detail Pane @STREAM-2820 @C-7690",
+  "historyId": "4fdf080e9de488503730c52ea8607434",
+  "time": { "start": 1714397194547, "stop": 1714397194548, "duration": 1 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Home.VerifyUserIsAbleToReproduceWorkoutFromWorkoutDetailPane.js"
+    },
+    { "name": "suite", "value": "Home Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "48ec51b67288882f.json",
+  "parameterValues": []
+}

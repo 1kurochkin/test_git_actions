@@ -1,0 +1,593 @@
+{
+  "uid": "a70ab02cfb9ccc85",
+  "name": "Log into the app with valid user @STREAM-2569 @C-7676",
+  "fullName": "Log into the app with valid user @STREAM-2569 @C-7676",
+  "historyId": "cbe13f52afb5aa13c5e1fdcf0462b16c",
+  "time": { "start": 1714397150724, "stop": 1714397156543, "duration": 5819 },
+  "description": "User logs in the web application",
+  "descriptionHtml": "<p>User logs in the web application</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [
+    {
+      "time": {},
+      "status": "passed",
+      "steps": [
+        {
+          "name": "setAllureEnvironmentVariables",
+          "time": {
+            "start": 1714397150722,
+            "stop": 1714397150722,
+            "duration": 0
+          },
+          "status": "passed",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "hasContent": false,
+          "shouldDisplayMessage": false,
+          "stepsCount": 0,
+          "attachmentsCount": 0,
+          "attachmentStep": false
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "hasContent": true,
+      "shouldDisplayMessage": false,
+      "stepsCount": 1,
+      "attachmentsCount": 0,
+      "attachmentStep": false
+    }
+  ],
+  "testStage": {
+    "description": "User logs in the web application",
+    "status": "passed",
+    "steps": [
+      {
+        "name": "\"before each\" hook",
+        "time": {
+          "start": 1714397150725,
+          "stop": 1714397150727,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "setMetadataToAllureReport (\"[Object]\")",
+            "time": {
+              "start": 1714397150725,
+              "stop": 1714397150725,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 1,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "visit https://app.qa.pvolve.com/continue -> 302: https://app.qa.pvolve.com/continue/",
+        "time": {
+          "start": 1714397150728,
+          "stop": 1714397152513,
+          "duration": 1785
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get input[name=\"email\"]",
+        "time": {
+          "start": 1714397152513,
+          "stop": 1714397152520,
+          "duration": 7
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "type automation.test+1@test.com",
+        "time": {
+          "start": 1714397152520,
+          "stop": 1714397153154,
+          "duration": 634
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get button[type=\"submit\"]",
+        "time": {
+          "start": 1714397153155,
+          "stop": 1714397153157,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "click",
+        "time": {
+          "start": 1714397153157,
+          "stop": 1714397153235,
+          "duration": 78
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get input[name=\"password\"]",
+        "time": {
+          "start": 1714397153235,
+          "stop": 1714397153575,
+          "duration": 340
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "new url https://app.qa.pvolve.com/login",
+        "time": {
+          "start": 1714397153575,
+          "stop": 1714397153575,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-24' } ]\")",
+        "time": {
+          "start": 1714397153576,
+          "stop": 1714397153584,
+          "duration": 8
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397153576,
+              "stop": 1714397153584,
+              "duration": 8
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<input#login-password>** to be **visible**",
+            "time": {
+              "start": 1714397153583,
+              "stop": 1714397153583,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 2,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get input[name=\"password\"]",
+        "time": {
+          "start": 1714397153584,
+          "stop": 1714397153587,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "type Password1234!",
+        "time": {
+          "start": 1714397153587,
+          "stop": 1714397153871,
+          "duration": 284
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get button[type=\"submit\"]",
+        "time": {
+          "start": 1714397153871,
+          "stop": 1714397153873,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-27' } ]\")",
+        "time": {
+          "start": 1714397153873,
+          "stop": 1714397153876,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397153873,
+              "stop": 1714397153876,
+              "duration": 3
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<button.ui.fluid.primary.button.auth-module--submit-button--fgyo2>** to be **visible**",
+            "time": {
+              "start": 1714397153876,
+              "stop": 1714397153876,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 2,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get button[type=\"submit\"]",
+        "time": {
+          "start": 1714397153876,
+          "stop": 1714397153878,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "click",
+        "time": {
+          "start": 1714397153878,
+          "stop": 1714397153953,
+          "duration": 75
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"menu-home\"]",
+        "time": {
+          "start": 1714397153953,
+          "stop": 1714397156530,
+          "duration": 2577
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "page load --page loaded--",
+        "time": {
+          "start": 1714397156530,
+          "stop": 1714397156530,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "new url https://app.qa.pvolve.com/home",
+        "time": {
+          "start": 1714397156530,
+          "stop": 1714397156530,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"menu-classes\"]",
+        "time": {
+          "start": 1714397156530,
+          "stop": 1714397156533,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-30' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-31' } ]\")",
+        "time": {
+          "start": 1714397156533,
+          "stop": 1714397156542,
+          "duration": 9
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397156533,
+              "stop": 1714397156538,
+              "duration": 5
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeLarge.MuiButton-textSizeLarge.selected.css-bi6eze>** to be **visible**",
+            "time": {
+              "start": 1714397156538,
+              "stop": 1714397156538,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397156538,
+              "stop": 1714397156542,
+              "duration": 4
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeLarge.MuiButton-textSizeLarge.css-bi6eze>** to be **visible**",
+            "time": {
+              "start": 1714397156542,
+              "stop": 1714397156542,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 4,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "hasContent": true,
+    "shouldDisplayMessage": false,
+    "stepsCount": 29,
+    "attachmentsCount": 0,
+    "attachmentStep": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Login.Login.js"
+    },
+    { "name": "suite", "value": "Login Test Suite" },
+    { "name": "tag", "value": "Login" },
+    { "name": "owner", "value": "Carlos Rodríguez" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [
+    {
+      "name": "@STREAM-2569",
+      "url": "https://pvolve.atlassian.net/browse/STREAM-2569",
+      "type": "issue"
+    },
+    {
+      "name": "@C-7676",
+      "url": "https://pvolve.testrail.io/index.php?/cases/view/7676",
+      "type": "tms"
+    }
+  ],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "owner": "Carlos Rodríguez",
+    "retries": [],
+    "categories": [],
+    "tags": ["Login"]
+  },
+  "source": "a70ab02cfb9ccc85.json",
+  "parameterValues": []
+}

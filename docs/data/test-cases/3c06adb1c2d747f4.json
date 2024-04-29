@@ -1,0 +1,37 @@
+{
+  "uid": "3c06adb1c2d747f4",
+  "name": "Upsell Carousel - A La Carte Carousel Contents @ECOMM-2197 @C-8991",
+  "fullName": "Upsell Carousel - A La Carte Carousel Contents @ECOMM-2197 @C-8991",
+  "historyId": "79fa2e84e8b66b7fcf0b19ebbe56c10e",
+  "time": { "start": 1714397216002, "stop": 1714397216004, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.MiniCart.VerifyCarouselContentWithALaCartInCart.js"
+    },
+    { "name": "suite", "value": "Shopping Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "3c06adb1c2d747f4.json",
+  "parameterValues": []
+}

@@ -1,0 +1,37 @@
+{
+  "uid": "f1894db596db03b2",
+  "name": "Remove from Favorites From Workout Detail Pane @STREAM-2681 @C-8067",
+  "fullName": "Remove from Favorites From Workout Detail Pane @STREAM-2681 @C-8067",
+  "historyId": "25006c90fffc2e54f3600a6b73ff2255",
+  "time": { "start": 1714397186140, "stop": 1714397186142, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Home.RemoveFromFavoritesFromWorkoutDetailPane.js"
+    },
+    { "name": "suite", "value": "Home Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "f1894db596db03b2.json",
+  "parameterValues": []
+}

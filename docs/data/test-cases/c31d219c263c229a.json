@@ -1,0 +1,37 @@
+{
+  "uid": "c31d219c263c229a",
+  "name": "Log out of the app@STREAM-2577 @C-7677",
+  "fullName": "Log out of the app@STREAM-2577 @C-7677",
+  "historyId": "3a8184522eac54b01d43233387d0a75b",
+  "time": { "start": 1714397158810, "stop": 1714397158812, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Login.Logout.js"
+    },
+    { "name": "suite", "value": "Login Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "c31d219c263c229a.json",
+  "parameterValues": []
+}

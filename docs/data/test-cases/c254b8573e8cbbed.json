@@ -1,0 +1,37 @@
+{
+  "uid": "c254b8573e8cbbed",
+  "name": "Verify Stats increments - On-Demand @STREAM-2821 @C-7683",
+  "fullName": "Verify Stats increments - On-Demand @STREAM-2821 @C-7683",
+  "historyId": "a5a47d9675f2eaf3078b56651e951477",
+  "time": { "start": 1714397192471, "stop": 1714397192472, "duration": 1 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Home.VerifyStatsIncrement.js"
+    },
+    { "name": "suite", "value": "Home Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "c254b8573e8cbbed.json",
+  "parameterValues": []
+}

@@ -1,0 +1,1035 @@
+{
+  "uid": "462bfdb1832cbed0",
+  "name": "Verify filter modal - elements @STREAM-2579 @C-8077",
+  "fullName": "Verify filter modal - elements @STREAM-2579 @C-8077",
+  "historyId": "77bae924cb57e2f525b3113c71eb46aa",
+  "time": { "start": 1714397132765, "stop": 1714397139309, "duration": 6544 },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "\"before each\" hook",
+        "time": {
+          "start": 1714397132766,
+          "stop": 1714397132788,
+          "duration": 22
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "setMetadataToAllureReport (\"[Object]\")",
+            "time": {
+              "start": 1714397132786,
+              "stop": 1714397132786,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 1,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "loginRechargeUser",
+        "time": {
+          "start": 1714397132789,
+          "stop": 1714397136544,
+          "duration": 3755
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "visit https://app.qa.pvolve.com/continue -> 302: https://app.qa.pvolve.com/continue/",
+            "time": {
+              "start": 1714397132790,
+              "stop": 1714397134884,
+              "duration": 2094
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get input[name=\"email\"]",
+            "time": {
+              "start": 1714397134884,
+              "stop": 1714397134890,
+              "duration": 6
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "type automation.test+1@test.com",
+            "time": {
+              "start": 1714397134890,
+              "stop": 1714397135399,
+              "duration": 509
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get button[type=\"submit\"]",
+            "time": {
+              "start": 1714397135399,
+              "stop": 1714397135402,
+              "duration": 3
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "click",
+            "time": {
+              "start": 1714397135402,
+              "stop": 1714397135478,
+              "duration": 76
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get input[name=\"password\"]",
+            "time": {
+              "start": 1714397135478,
+              "stop": 1714397136184,
+              "duration": 706
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "new url https://app.qa.pvolve.com/login",
+            "time": {
+              "start": 1714397136184,
+              "stop": 1714397136184,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "type Password1234!",
+            "time": {
+              "start": 1714397136184,
+              "stop": 1714397136465,
+              "duration": 281
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get button[type=\"submit\"]",
+            "time": {
+              "start": 1714397136465,
+              "stop": 1714397136467,
+              "duration": 2
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "click",
+            "time": {
+              "start": 1714397136467,
+              "stop": 1714397136544,
+              "duration": 77
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 10,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"menu-home\"]",
+        "time": {
+          "start": 1714397136544,
+          "stop": 1714397138095,
+          "duration": 1551
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "page load --page loaded--",
+        "time": {
+          "start": 1714397138094,
+          "stop": 1714397138094,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "new url https://app.qa.pvolve.com/home",
+        "time": {
+          "start": 1714397138095,
+          "stop": 1714397138095,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"menu-classes\"]",
+        "time": {
+          "start": 1714397138095,
+          "stop": 1714397138097,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-12' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-13' } ]\")",
+        "time": {
+          "start": 1714397138098,
+          "stop": 1714397138110,
+          "duration": 12
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397138098,
+              "stop": 1714397138104,
+              "duration": 6
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeLarge.MuiButton-textSizeLarge.selected.css-bi6eze>** to be **visible**",
+            "time": {
+              "start": 1714397138104,
+              "stop": 1714397138104,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397138104,
+              "stop": 1714397138110,
+              "duration": 6
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeLarge.MuiButton-textSizeLarge.css-bi6eze>** to be **visible**",
+            "time": {
+              "start": 1714397138110,
+              "stop": 1714397138110,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 4,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "visit https://app.qa.pvolve.com/classes",
+        "time": {
+          "start": 1714397138110,
+          "stop": 1714397138617,
+          "duration": 507
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"workout-number-results\"]",
+        "time": {
+          "start": 1714397138617,
+          "stop": 1714397139036,
+          "duration": 419
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-16' } ]\")",
+        "time": {
+          "start": 1714397139036,
+          "stop": 1714397139040,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397139036,
+              "stop": 1714397139040,
+              "duration": 4
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<h6.MuiTypography-root.MuiTypography-subtitle1.css-1vbvadk>** to be **visible**",
+            "time": {
+              "start": 1714397139040,
+              "stop": 1714397139040,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 2,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get button[data-test=\"Classes-Filter-Button\"]",
+        "time": {
+          "start": 1714397139040,
+          "stop": 1714397139041,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "click {force: true}",
+        "time": {
+          "start": 1714397139042,
+          "stop": 1714397139130,
+          "duration": 88
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get div[data-test*=\"FiltersDialog-ToggleClassLengthAccordion-Button\"]",
+        "time": {
+          "start": 1714397139130,
+          "stop": 1714397139133,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get div[data-test*=\"FiltersDialog-TogglePacingAccordion-Button\"]",
+        "time": {
+          "start": 1714397139133,
+          "stop": 1714397139134,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get div[data-test*=\"FiltersDialog-ToggleTrainersAccordion-Button\"]",
+        "time": {
+          "start": 1714397139134,
+          "stop": 1714397139136,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get div[data-test*=\"FiltersDialog-ToggleEquipmentAccordion-Button\"]",
+        "time": {
+          "start": 1714397139136,
+          "stop": 1714397139137,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get div[data-test*=\"FiltersDialog-ToggleBodyFocusAccordion-Button\"]",
+        "time": {
+          "start": 1714397139137,
+          "stop": 1714397139138,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get span[data-test=\"FiltersDialog-Favorites-Switch\"]",
+        "time": {
+          "start": 1714397139138,
+          "stop": 1714397139139,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get span[data-test=\"FiltersDialog-Watched-Switch\"]",
+        "time": {
+          "start": 1714397139139,
+          "stop": 1714397139141,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get button[data-test=\"FiltersDialog-Clear-Button\"]",
+        "time": {
+          "start": 1714397139141,
+          "stop": 1714397139142,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get button[data-test=\"FiltersDialog-ShowClasses-Button\"]",
+        "time": {
+          "start": 1714397139142,
+          "stop": 1714397139143,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-19' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-20' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-21' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-22' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-23' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-24' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-25' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-26' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-27' } ]\")",
+        "time": {
+          "start": 1714397139144,
+          "stop": 1714397139309,
+          "duration": 165
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397139144,
+              "stop": 1714397139148,
+              "duration": 4
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<div#video-header.MuiButtonBase-root.MuiAccordionSummary-root.css-1kh19hk>** to be **visible**",
+            "time": {
+              "start": 1714397139148,
+              "stop": 1714397139148,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397139148,
+              "stop": 1714397139153,
+              "duration": 5
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<div#pacing-header.MuiButtonBase-root.MuiAccordionSummary-root.css-1kh19hk>** to be **visible**",
+            "time": {
+              "start": 1714397139153,
+              "stop": 1714397139153,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397139153,
+              "stop": 1714397139157,
+              "duration": 4
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<div#instructor-header.MuiButtonBase-root.MuiAccordionSummary-root.css-1kh19hk>** to be **visible**",
+            "time": {
+              "start": 1714397139157,
+              "stop": 1714397139157,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397139157,
+              "stop": 1714397139180,
+              "duration": 23
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<div#equipment-header.MuiButtonBase-root.MuiAccordionSummary-root.css-1kh19hk>** to be **visible**",
+            "time": {
+              "start": 1714397139180,
+              "stop": 1714397139180,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397139180,
+              "stop": 1714397139183,
+              "duration": 3
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<div#focusMember-header.MuiButtonBase-root.MuiAccordionSummary-root.css-1kh19hk>** to be **visible**",
+            "time": {
+              "start": 1714397139183,
+              "stop": 1714397139183,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397139183,
+              "stop": 1714397139206,
+              "duration": 23
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<span.MuiButtonBase-root.MuiSwitch-switchBase.MuiSwitch-colorTertiary.PrivateSwitchBase-root.MuiSwitch-switchBase.MuiSwitch-colorTertiary.css-r730vp>** to be **visible**",
+            "time": {
+              "start": 1714397139206,
+              "stop": 1714397139206,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397139206,
+              "stop": 1714397139228,
+              "duration": 22
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<span.MuiButtonBase-root.MuiSwitch-switchBase.MuiSwitch-colorTertiary.PrivateSwitchBase-root.MuiSwitch-switchBase.MuiSwitch-colorTertiary.css-r730vp>** to be **visible**",
+            "time": {
+              "start": 1714397139228,
+              "stop": 1714397139228,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397139228,
+              "stop": 1714397139305,
+              "duration": 77
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.css-otb8jk>** to be **visible**",
+            "time": {
+              "start": 1714397139305,
+              "stop": 1714397139305,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397139305,
+              "stop": 1714397139309,
+              "duration": 4
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-1g1xv4u>** to be **visible**",
+            "time": {
+              "start": 1714397139308,
+              "stop": 1714397139308,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 18,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "hasContent": true,
+    "shouldDisplayMessage": false,
+    "stepsCount": 57,
+    "attachmentsCount": 0,
+    "attachmentStep": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Classes.FilterModalElements.js"
+    },
+    { "name": "suite", "value": "Classes Test Suite" },
+    { "name": "owner", "value": "Carlos Rodríguez" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [
+    {
+      "name": "@STREAM-2579",
+      "url": "https://pvolve.atlassian.net/browse/STREAM-2579",
+      "type": "issue"
+    },
+    {
+      "name": "@C-8077",
+      "url": "https://pvolve.testrail.io/index.php?/cases/view/8077",
+      "type": "tms"
+    }
+  ],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "owner": "Carlos Rodríguez",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "462bfdb1832cbed0.json",
+  "parameterValues": []
+}

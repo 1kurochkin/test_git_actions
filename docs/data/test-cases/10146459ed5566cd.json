@@ -1,0 +1,37 @@
+{
+  "uid": "10146459ed5566cd",
+  "name": "Forgot Password @STREAM-2819 @C-8039",
+  "fullName": "Forgot Password @STREAM-2819 @C-8039",
+  "historyId": "78e7699405df78feac8629da14e75316",
+  "time": { "start": 1714397149695, "stop": 1714397149697, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Login.ForgotPassword.js"
+    },
+    { "name": "suite", "value": "Login Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "10146459ed5566cd.json",
+  "parameterValues": []
+}

@@ -1,0 +1,37 @@
+{
+  "uid": "ab327d1626a4af70",
+  "name": "Verify Workout Detail Pane elements direct link @STREAM-2925 @C-8068",
+  "fullName": "Verify Workout Detail Pane elements direct link @STREAM-2925 @C-8068",
+  "historyId": "18d24dc90a3d2b6788b91dd4b745eba3",
+  "time": { "start": 1714397187163, "stop": 1714397187164, "duration": 1 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Home.VerifyAccessWorkoutDetailPaneviadirectlink.js"
+    },
+    { "name": "suite", "value": "Home Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "ab327d1626a4af70.json",
+  "parameterValues": []
+}

@@ -1,0 +1,15 @@
+- name: Send Allure report to Slack
+  on: push
+  env:
+    SLACK_WEBHOOK_URL: ${{ secrets[github.event.client_payload.slack_webhook] }}
+  uses: 8398a7/action-slack@v3
+  with:
+    status: "success"
+    fields: ''
+    text: "Allure Report Link: https://curly-robot-125ba1a2.pages.github.io/${{ github.event.client_payload.worksheet_name }}/${{ github.run_number }}/"
+    channel: ${{ github.event.client_payload.slack_channel }}
+
+
+
+
+

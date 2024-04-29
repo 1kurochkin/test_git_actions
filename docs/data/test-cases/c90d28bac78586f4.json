@@ -1,0 +1,37 @@
+{
+  "uid": "c90d28bac78586f4",
+  "name": "Add Trial to Cart (w/ Afterpay TTB in Cart) @ECOMM-2169 @C-8690",
+  "fullName": "Add Trial to Cart (w/ Afterpay TTB in Cart) @ECOMM-2169 @C-8690",
+  "historyId": "a5ee58aeb1e8a4c551704b9399231808",
+  "time": { "start": 1714397228173, "stop": 1714397228174, "duration": 1 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.PDP.AddTrialToCartWithAfterPayTTBInCart.js"
+    },
+    { "name": "suite", "value": "Product Description Pages (PDP) Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "c90d28bac78586f4.json",
+  "parameterValues": []
+}

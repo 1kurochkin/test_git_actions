@@ -1,0 +1,1836 @@
+{
+  "uid": "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children": [
+    {
+      "name": "cypress.integration.End-To-End-Smoke",
+      "children": [
+        {
+          "name": "Classes",
+          "children": [
+            {
+              "name": "ClassesCategoriesInteraction.js",
+              "children": [
+                {
+                  "name": "Verify Categories at the top of the page @STREAM-2578 @C-8071",
+                  "uid": "af7e71588760b0cf",
+                  "parentUid": "59033e988067b0b35e46d2a1d8766522",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397130267,
+                    "stop": 1714397130269,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "ClassesCategoriesInteraction.js"
+            },
+            {
+              "name": "ClearAllFiltersOutsideModal.js",
+              "children": [
+                {
+                  "name": "Clear all filters (part and outside of the Filter modal) @STREAM-2771 @C-8083",
+                  "uid": "4ddf09a16a6889f3",
+                  "parentUid": "5ba7b46c3f442f7b6794d6ed414f465a",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397131410,
+                    "stop": 1714397131412,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "ClearAllFiltersOutsideModal.js"
+            },
+            {
+              "name": "FilterModalElements.js",
+              "children": [
+                {
+                  "name": "Verify filter modal - elements @STREAM-2579 @C-8077",
+                  "uid": "462bfdb1832cbed0",
+                  "parentUid": "d156513810697a717204ecbf726d0462",
+                  "status": "passed",
+                  "time": {
+                    "start": 1714397132765,
+                    "stop": 1714397139309,
+                    "duration": 6544
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "FilterModalElements.js"
+            },
+            {
+              "name": "FiltersResults.js",
+              "children": [
+                {
+                  "name": "Verify Filters are working correctly (3 filter different categories) @STREAM-2580 @C-7692",
+                  "uid": "5f4cbebf062264e1",
+                  "parentUid": "65beea2786ad1e3f63a92cc4efe7bad4",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397140649,
+                    "stop": 1714397140651,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "FiltersResults.js"
+            },
+            {
+              "name": "FiltersResultsDifferentCategories.js",
+              "children": [
+                {
+                  "name": "Multiple valid Filter query (different filter categories) @STREAM-2642 @C-8080",
+                  "uid": "a1e5b3734886e66",
+                  "parentUid": "e0f8c8309eef1306d5d64d02b95040ce",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397141683,
+                    "stop": 1714397141684,
+                    "duration": 1
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "FiltersResultsDifferentCategories.js"
+            },
+            {
+              "name": "MultipleValuesSameFilterCategory.js",
+              "children": [
+                {
+                  "name": "Multiple valid Filter query (same filter category) @STREAM-2641 @C-8079",
+                  "uid": "9bb159a59dff14f5",
+                  "parentUid": "a82dd06bb20e53763b0a2e05e300768e",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397142697,
+                    "stop": 1714397142699,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "MultipleValuesSameFilterCategory.js"
+            },
+            {
+              "name": "SingleFilterResult.js",
+              "children": [
+                {
+                  "name": "Single valid Filter query @STREAM-2640 @C-8078",
+                  "uid": "663a7c028bb52e61",
+                  "parentUid": "647efee91bfdc56eb1d4e3c78714532f",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397143691,
+                    "stop": 1714397143693,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "SingleFilterResult.js"
+            },
+            {
+              "name": "VerifySearchBarIsWorkingValidSearch.js",
+              "children": [
+                {
+                  "name": "Verify Search Bar is working (valid search) @STREAM-2770 @C-8072",
+                  "uid": "1ad3e7b6613adea0",
+                  "parentUid": "a4d6ef552125082a7665d312fca13449",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397144635,
+                    "stop": 1714397144637,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifySearchBarIsWorkingValidSearch.js"
+            },
+            {
+              "name": "VerifySortByIsWorking.js",
+              "children": [
+                {
+                  "name": "Verify Sort by is working @STREAM-2929 @C-8073",
+                  "uid": "4cd0446e034f5d4e",
+                  "parentUid": "25e6f58c537b696cfd20caa90d79715b",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397145618,
+                    "stop": 1714397145620,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifySortByIsWorking.js"
+            },
+            {
+              "name": "VerifyToggleForFavoritesIsWorking.js",
+              "children": [
+                {
+                  "name": "Verify toggle for Favorites is working @STREAM-2927 @C-8074",
+                  "uid": "7966e53da5e28ed0",
+                  "parentUid": "99048052a2a8ccd0654f255c4b766622",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397146531,
+                    "stop": 1714397146532,
+                    "duration": 1
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyToggleForFavoritesIsWorking.js"
+            },
+            {
+              "name": "VerifyToggleSwitchForWatchedIsWorking.js",
+              "children": [
+                {
+                  "name": "Verify toggle switch for Watched is working @STREAM-2928 @C-8075",
+                  "uid": "fa548ebc32b65820",
+                  "parentUid": "137a5fc9ceff716061bee55ea3e77455",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397147605,
+                    "stop": 1714397147607,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyToggleSwitchForWatchedIsWorking.js"
+            }
+          ],
+          "uid": "0a8e9bfdba22354c16e00d57e6d93b10"
+        },
+        {
+          "name": "HeaderNavigation.HeaderNavigation.js",
+          "children": [
+            {
+              "name": "Header Navigation Home @STREAM-2679 @C-8044",
+              "uid": "e44142c44de3be4a",
+              "parentUid": "664752be3f2d77dd6c5a4adfede896c7",
+              "status": "skipped",
+              "time": {
+                "start": 1714397148717,
+                "stop": 1714397148720,
+                "duration": 3
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Header Navigation Series @STREAM-2679 @C-8048",
+              "uid": "a67aae540d1eca99",
+              "parentUid": "664752be3f2d77dd6c5a4adfede896c7",
+              "status": "skipped",
+              "time": {
+                "start": 1714397148720,
+                "stop": 1714397148721,
+                "duration": 1
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Header Navigation Classes @STREAM-2679 @C-8049",
+              "uid": "63c31dee0dbe6605",
+              "parentUid": "664752be3f2d77dd6c5a4adfede896c7",
+              "status": "skipped",
+              "time": {
+                "start": 1714397148721,
+                "stop": 1714397148722,
+                "duration": 1
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Header Navigation Live @STREAM-2679 @C-8053",
+              "uid": "706248c7d85d19dd",
+              "parentUid": "664752be3f2d77dd6c5a4adfede896c7",
+              "status": "skipped",
+              "time": {
+                "start": 1714397148722,
+                "stop": 1714397148723,
+                "duration": 1
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Header Navigation Shop @STREAM-2679 @C-7680",
+              "uid": "322449f971f0dd65",
+              "parentUid": "664752be3f2d77dd6c5a4adfede896c7",
+              "status": "skipped",
+              "time": {
+                "start": 1714397148723,
+                "stop": 1714397148724,
+                "duration": 1
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Header Navigation Locations @STREAM-2679 @C-7681",
+              "uid": "478a4f056cf4f83a",
+              "parentUid": "664752be3f2d77dd6c5a4adfede896c7",
+              "status": "skipped",
+              "time": {
+                "start": 1714397148724,
+                "stop": 1714397148725,
+                "duration": 1
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Header Navigation Franchise @STREAM-2679 @C-7682",
+              "uid": "6ae5110b13f653c4",
+              "parentUid": "664752be3f2d77dd6c5a4adfede896c7",
+              "status": "skipped",
+              "time": {
+                "start": 1714397148725,
+                "stop": 1714397148726,
+                "duration": 1
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": [],
+              "tags": []
+            }
+          ],
+          "uid": "HeaderNavigation.HeaderNavigation.js"
+        },
+        {
+          "name": "Login",
+          "children": [
+            {
+              "name": "ForgotPassword.js",
+              "children": [
+                {
+                  "name": "Forgot Password @STREAM-2819 @C-8039",
+                  "uid": "10146459ed5566cd",
+                  "parentUid": "30536dac55cc06d5b87134321b946ce2",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397149695,
+                    "stop": 1714397149697,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "ForgotPassword.js"
+            },
+            {
+              "name": "Login.js",
+              "children": [
+                {
+                  "name": "Log into the app with valid user @STREAM-2569 @C-7676",
+                  "uid": "a70ab02cfb9ccc85",
+                  "parentUid": "be265311507cd09ef6448dbeca4603a0",
+                  "status": "passed",
+                  "time": {
+                    "start": 1714397150724,
+                    "stop": 1714397156543,
+                    "duration": 5819
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": ["Login"]
+                }
+              ],
+              "uid": "Login.js"
+            },
+            {
+              "name": "Logout.js",
+              "children": [
+                {
+                  "name": "Log out of the app@STREAM-2577 @C-7677",
+                  "uid": "c31d219c263c229a",
+                  "parentUid": "60cd4c9e020ff4cc10107c2ed4a85233",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397158810,
+                    "stop": 1714397158812,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "Logout.js"
+            }
+          ],
+          "uid": "356089cc309c800e2f1641bc401019b6"
+        },
+        {
+          "name": "Live",
+          "children": [
+            {
+              "name": "LivePageElements.js",
+              "children": [
+                {
+                  "name": "Live page elements @STREAM-2774 @C-8141",
+                  "uid": "b41fc722700085ad",
+                  "parentUid": "3bcf1333f51d02d3f3ab438e6633324f",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397160025,
+                    "stop": 1714397160026,
+                    "duration": 1
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "LivePageElements.js"
+            },
+            {
+              "name": "VerifyClickingMonthDayOpensSchedule.js",
+              "children": [
+                {
+                  "name": "Clicking on Month Day opens schedule for that day @STREAM-2816 @C-8143",
+                  "uid": "defe28ef4e9fc552",
+                  "parentUid": "ceb8a9cdf5975a63a22ca6a1d8c48e5c",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397161297,
+                    "stop": 1714397161299,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyClickingMonthDayOpensSchedule.js"
+            },
+            {
+              "name": "VerifyUserIsAbleToCancelLiveClassReservation.js",
+              "children": [
+                {
+                  "name": "Verify user is able to cancel live class reservation @STREAM-2817 @C-7700",
+                  "uid": "116876c0f7572d3f",
+                  "parentUid": "b9fedac4c7c12e9e8fc46d4b686cecdd",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397163561,
+                    "stop": 1714397163562,
+                    "duration": 1
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyUserIsAbleToCancelLiveClassReservation.js"
+            },
+            {
+              "name": "VerifyUserIsAbleToReserveLiveClass.js",
+              "children": [
+                {
+                  "name": "Verify user is able to reserve a live class @STREAM-2815 @C-7699",
+                  "uid": "935f05d3ac199031",
+                  "parentUid": "93e4f2947a7806768231686404acae05",
+                  "status": "passed",
+                  "time": {
+                    "start": 1714397165113,
+                    "stop": 1714397177443,
+                    "duration": 12330
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyUserIsAbleToReserveLiveClass.js"
+            }
+          ],
+          "uid": "37d50af51189a38cc27e3a4fe27241b2"
+        },
+        {
+          "name": "Series",
+          "children": [
+            {
+              "name": "EnrollToSeries.js",
+              "children": [
+                {
+                  "name": "Enroll to a series @STREAM-2685 @C-7702",
+                  "uid": "3f6f62740e5facd5",
+                  "parentUid": "9b8d185a73b832092764489c76b96dbd",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397180416,
+                    "stop": 1714397180418,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "EnrollToSeries.js"
+            },
+            {
+              "name": "LeaveEnrolledSeries.js",
+              "children": [
+                {
+                  "name": "Leave enrolled series @STREAM-2686 @C-7703",
+                  "uid": "5c39e22f6d38cdce",
+                  "parentUid": "6394dda837cd72db54c11684b9b9f82c",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397181389,
+                    "stop": 1714397181391,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "LeaveEnrolledSeries.js"
+            },
+            {
+              "name": "SeriesPageElementsEnrolled.js",
+              "children": [
+                {
+                  "name": "Series page elements (enrolled) @STREAM-2773 @C-8299",
+                  "uid": "7584335649f1bade",
+                  "parentUid": "379adfae78625fd506dd278ae0ddb262",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397182416,
+                    "stop": 1714397182418,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "SeriesPageElementsEnrolled.js"
+            },
+            {
+              "name": "SeriesPageElementsUnenrolled.js",
+              "children": [
+                {
+                  "name": "Series page elements (unenrolled) @STREAM-2772 @C-8122",
+                  "uid": "dbeb0ba035752a45",
+                  "parentUid": "220faeb3061bf0db68a05356ed7d51fe",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397183656,
+                    "stop": 1714397183658,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "SeriesPageElementsUnenrolled.js"
+            }
+          ],
+          "uid": "40b44daa0785bb2d429d9cb91ae87d7c"
+        },
+        {
+          "name": "Home",
+          "children": [
+            {
+              "name": "AddToFavoritesFromWorkoutDetailPane.js",
+              "children": [
+                {
+                  "name": "Add To Favorites From Workout Detail Pane @STREAM-2680 @C-8065",
+                  "uid": "676ac372b0f0b6f8",
+                  "parentUid": "ecf8c4bdee8b716d9a4c9d377acc093d",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397184695,
+                    "stop": 1714397184697,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "AddToFavoritesFromWorkoutDetailPane.js"
+            },
+            {
+              "name": "RemoveFromFavoritesFromWorkoutDetailPane.js",
+              "children": [
+                {
+                  "name": "Remove from Favorites From Workout Detail Pane @STREAM-2681 @C-8067",
+                  "uid": "f1894db596db03b2",
+                  "parentUid": "60b73a760da4775f62e642d404a5b73f",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397186140,
+                    "stop": 1714397186142,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "RemoveFromFavoritesFromWorkoutDetailPane.js"
+            },
+            {
+              "name": "VerifyAccessWorkoutDetailPaneviadirectlink.js",
+              "children": [
+                {
+                  "name": "Verify Workout Detail Pane elements direct link @STREAM-2925 @C-8068",
+                  "uid": "ab327d1626a4af70",
+                  "parentUid": "4a5ab53c1f27d94ed6a5c81cc9c607fb",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397187163,
+                    "stop": 1714397187164,
+                    "duration": 1
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyAccessWorkoutDetailPaneviadirectlink.js"
+            },
+            {
+              "name": "VerifyEnrolledSeriesIsDisplayedInHomePage.js",
+              "children": [
+                {
+                  "name": "Verify enrolled Series is displayed in home page @STREAM-2769 @C-7685",
+                  "uid": "631c408f63d2148",
+                  "parentUid": "299df75eddd9f7914f59b44e0e8e88d2",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397188137,
+                    "stop": 1714397188139,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyEnrolledSeriesIsDisplayedInHomePage.js"
+            },
+            {
+              "name": "VerifyHomeElementsEnrolledInSeries.js",
+              "children": [
+                {
+                  "name": "Verify Home page elements (Enrolled in a series) @STREAM-2766 @C-8055",
+                  "uid": "af64bb6869f326f7",
+                  "parentUid": "9edb4ecf7af406ba0a45573e41c96d08",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397189018,
+                    "stop": 1714397189020,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyHomeElementsEnrolledInSeries.js"
+            },
+            {
+              "name": "VerifyHomeElementsNotEnrolledInSeries.js",
+              "children": [
+                {
+                  "name": "Verify Home page elements (NOT enrolled in a series) @STREAM-2767 @C-8298",
+                  "uid": "dc0a9a82c9e7755b",
+                  "parentUid": "05c62ae1e9ecb0a889c90e990927a6c4",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397189991,
+                    "stop": 1714397189993,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyHomeElementsNotEnrolledInSeries.js"
+            },
+            {
+              "name": "VerifySeriesIsUpdatedAfterWorkoutCompletion.js",
+              "children": [
+                {
+                  "name": "Verify series is updated when a workout is completed @STREAM-2924 @C-7689",
+                  "uid": "8108f40519b8e0f6",
+                  "parentUid": "8e535c87c6fc74e6eed4605f16502cd6",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397191372,
+                    "stop": 1714397191373,
+                    "duration": 1
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifySeriesIsUpdatedAfterWorkoutCompletion.js"
+            },
+            {
+              "name": "VerifyStatsIncrement.js",
+              "children": [
+                {
+                  "name": "Verify Stats increments - On-Demand @STREAM-2821 @C-7683",
+                  "uid": "c254b8573e8cbbed",
+                  "parentUid": "985c836c6e76122d3a717ae352bd49ef",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397192471,
+                    "stop": 1714397192472,
+                    "duration": 1
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyStatsIncrement.js"
+            },
+            {
+              "name": "VerifyUserIsAbleLeaveSeriesFromHomePage.js",
+              "children": [
+                {
+                  "name": "Verify User is able to leave series from home page @STREAM-2926 @C-8070",
+                  "uid": "4ce99c139366f104",
+                  "parentUid": "c3472aa705db01ec89853c8c3998ce63",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397193521,
+                    "stop": 1714397193524,
+                    "duration": 3
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyUserIsAbleLeaveSeriesFromHomePage.js"
+            },
+            {
+              "name": "VerifyUserIsAbleToReproduceWorkoutFromWorkoutDetailPane.js",
+              "children": [
+                {
+                  "name": " Verify User is able to reproduce a workout from Workout Detail Pane @STREAM-2820 @C-7690",
+                  "uid": "48ec51b67288882f",
+                  "parentUid": "b0c8460b7e9c9fbeb4212680fd8f8fc1",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397194547,
+                    "stop": 1714397194548,
+                    "duration": 1
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyUserIsAbleToReproduceWorkoutFromWorkoutDetailPane.js"
+            },
+            {
+              "name": "VerifyWorkoutDetailPaneElements.js",
+              "children": [
+                {
+                  "name": "Verify Workout Detail Pane elements @STREAM-2683 @C-8063",
+                  "uid": "c3baf33e8725ac85",
+                  "parentUid": "daf20e2dc428687fb71b7cf0839faec5",
+                  "status": "passed",
+                  "time": {
+                    "start": 1714397195628,
+                    "stop": 1714397202445,
+                    "duration": 6817
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyWorkoutDetailPaneElements.js"
+            },
+            {
+              "name": "VerifyWorkoutDetailPaneElementsIsClosing.js",
+              "children": [
+                {
+                  "name": "Verify Workout Detail Pane is closing @STREAM-2684 @C-8064",
+                  "uid": "ed9267016a371668",
+                  "parentUid": "c0fc63244ca05ce1e3b17a390c4e0979",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397203539,
+                    "stop": 1714397203541,
+                    "duration": 2
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyWorkoutDetailPaneElementsIsClosing.js"
+            },
+            {
+              "name": "VerifyWorkoutDetailPaneElementsIsOpening.js",
+              "children": [
+                {
+                  "name": "Verify Workout Detail Pane is opening @STREAM-2682 @C-7686",
+                  "uid": "de68f7c73d999de7",
+                  "parentUid": "b0bbdc7f546557f3b2326f138fbd6bab",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1714397204554,
+                    "stop": 1714397204555,
+                    "duration": 1
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "VerifyWorkoutDetailPaneElementsIsOpening.js"
+            }
+          ],
+          "uid": "a1653af1ae16cd802f3afc779701c595"
+        },
+        {
+          "name": "Ecomm",
+          "children": [
+            {
+              "name": "MiniCart",
+              "children": [
+                {
+                  "name": "AddUpsellItemToCartFromCarousel.js",
+                  "children": [
+                    {
+                      "name": "Upsell Carousel - Add to Cart from Carousel @ECOMM-2198 @C-8990",
+                      "uid": "96595776df6f57bc",
+                      "parentUid": "2b90cef82405b09f816fd2244525a484",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397205568,
+                        "stop": 1714397205570,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AddUpsellItemToCartFromCarousel.js"
+                },
+                {
+                  "name": "DecrementALaCartInMiniCart.js",
+                  "children": [
+                    {
+                      "name": "Decrement A La Carte from Mini Cart @ECOMM-2187 @C-8236",
+                      "uid": "39d3599ce46eb6ec",
+                      "parentUid": "11facba9bd00598dd98c06f76db9bfe2",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397206633,
+                        "stop": 1714397206635,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "DecrementALaCartInMiniCart.js"
+                },
+                {
+                  "name": "DecrementBundlesInMiniCart.js",
+                  "children": [
+                    {
+                      "name": "Decrement Bundles in Mini Cart @ECOMM-2173 @C-8694",
+                      "uid": "cff08246d152f6cf",
+                      "parentUid": "c00109efbfa9417d911cc82e99355632",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397207548,
+                        "stop": 1714397207550,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "DecrementBundlesInMiniCart.js"
+                },
+                {
+                  "name": "DecrementTrialInMiniCart.js",
+                  "children": [
+                    {
+                      "name": "Decrement Trial in Mini Cart @ECOMM-2209 @C-8996",
+                      "uid": "a917ff7acc1a9af9",
+                      "parentUid": "04851d934bfd58c06a965be8985c94a1",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397208619,
+                        "stop": 1714397208620,
+                        "duration": 1
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "DecrementTrialInMiniCart.js"
+                },
+                {
+                  "name": "IncrementTrialInMiniCart.js",
+                  "children": [
+                    {
+                      "name": "Increment Trial in Mini Cart @ECOMM-2208 @C-8278",
+                      "uid": "648909ff54a40db3",
+                      "parentUid": "f129af8390c52c8b0edb4e2059fdccfd",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397209638,
+                        "stop": 1714397209640,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "IncrementTrialInMiniCart.js"
+                },
+                {
+                  "name": "IncrementingALaCarteInMiniCart.js",
+                  "children": [
+                    {
+                      "name": "Incrementing A La Carte in Mini Cart @ECOMM-2186 @C-8238",
+                      "uid": "74dcef39e7876e46",
+                      "parentUid": "1fd12e7cc33bccfa5423826db30ffb17",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397210663,
+                        "stop": 1714397210665,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "IncrementingALaCarteInMiniCart.js"
+                },
+                {
+                  "name": "RemoveALaCartInMiniCart.js",
+                  "children": [
+                    {
+                      "name": "Remove A La Carte in Mini Cart @ECOMM-2188 @C-8756",
+                      "uid": "b913c1a65510ce70",
+                      "parentUid": "819523acaaaf9442fa233d30e5e193f0",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397211649,
+                        "stop": 1714397211651,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "RemoveALaCartInMiniCart.js"
+                },
+                {
+                  "name": "RemoveBundleInMiniCart.js",
+                  "children": [
+                    {
+                      "name": "Removing Bundle In Mini Cart @ECOMM-2182 @C-8235",
+                      "uid": "3ee7cc1529b4ea8e",
+                      "parentUid": "6a1bb45b667d4370f0c5b0857e36faef",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397212659,
+                        "stop": 1714397212661,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "RemoveBundleInMiniCart.js"
+                },
+                {
+                  "name": "RemoveTTBAfterpayInMiniCart.js",
+                  "children": [
+                    {
+                      "name": "Removing TTB Afterpay in Mini Cart @ECOMM-2185 @C-8755",
+                      "uid": "655ed7185750260f",
+                      "parentUid": "84d372d9d01e2d186a236d88197d2587",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397213715,
+                        "stop": 1714397213717,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "RemoveTTBAfterpayInMiniCart.js"
+                },
+                {
+                  "name": "RemoveUpsellItemFromCartFromCarousel.js",
+                  "children": [
+                    {
+                      "name": "Upsell Carousel - Remove from Cart upsell item from Carousel @ECOMM-2199 @C-8992",
+                      "uid": "470ef17a44d5633f",
+                      "parentUid": "c0a0df020fe2ca1e7897a32380dec7dc",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397214811,
+                        "stop": 1714397214813,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "RemoveUpsellItemFromCartFromCarousel.js"
+                },
+                {
+                  "name": "VerifyCarouselContentWithALaCartInCart.js",
+                  "children": [
+                    {
+                      "name": "Upsell Carousel - A La Carte Carousel Contents @ECOMM-2197 @C-8991",
+                      "uid": "3c06adb1c2d747f4",
+                      "parentUid": "e4b2f3f2c5cc7aca90c8614071f9566f",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397216002,
+                        "stop": 1714397216004,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "VerifyCarouselContentWithALaCartInCart.js"
+                },
+                {
+                  "name": "VerifyCarouselContentWithSingleBundleInCart.js",
+                  "children": [
+                    {
+                      "name": "Verify Carousel Content with Single Bundle in Cart @ECOMM-2200 @C-8993",
+                      "uid": "ebcdd2f83f74ffa7",
+                      "parentUid": "df112da985e990b10b082751d06b20d0",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397217074,
+                        "stop": 1714397217076,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "VerifyCarouselContentWithSingleBundleInCart.js"
+                },
+                {
+                  "name": "VerifyCarouselContentWithTTBAfterPayInCart.js",
+                  "children": [
+                    {
+                      "name": "Verify Carousel Content with TTB with after pay in Cart @ECOMM-2207 @C-8995",
+                      "uid": "467ae24aab3beb06",
+                      "parentUid": "8da156ea723594096d2b10fd6d37cc07",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397218064,
+                        "stop": 1714397218065,
+                        "duration": 1
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "VerifyCarouselContentWithTTBAfterPayInCart.js"
+                },
+                {
+                  "name": "VerifyCarouselContentWithTTBInCart.js",
+                  "children": [
+                    {
+                      "name": "Verify Carousel Content with TTB in Cart @ECOMM-2206 @C-8994",
+                      "uid": "499f86b42628b2dd",
+                      "parentUid": "20b1a64afb495c201de77aa70841a0c3",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397219205,
+                        "stop": 1714397219207,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "VerifyCarouselContentWithTTBInCart.js"
+                }
+              ],
+              "uid": "46b22f136b305a17ad5439d15febc0e7"
+            },
+            {
+              "name": "PDP",
+              "children": [
+                {
+                  "name": "AddBundleToCartWithTrialInCart.js",
+                  "children": [
+                    {
+                      "name": "Add Bundle to Cart with Trial from PDP @ECOMM-2141 @C-8575",
+                      "uid": "23d9a1428369aaef",
+                      "parentUid": "d60447ddc7984a27e2110f4fd36568d2",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397220334,
+                        "stop": 1714397220336,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AddBundleToCartWithTrialInCart.js"
+                },
+                {
+                  "name": "AddMultipleBundlesToCartFromPDP.js",
+                  "children": [
+                    {
+                      "name": "Add Multiple Bundles to Cart from PDP @ECOMM-2139 @C-8573",
+                      "uid": "495cf618207b442a",
+                      "parentUid": "9c26eb495e6e15919068fc6214c5a3f3",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397221649,
+                        "stop": 1714397221655,
+                        "duration": 6
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AddMultipleBundlesToCartFromPDP.js"
+                },
+                {
+                  "name": "AddMultipleTrialToCartFromPDP.js",
+                  "children": [
+                    {
+                      "name": "Add multiple 7 days free trial to Cart from PDP @ECOMM-2154 @C-8629",
+                      "uid": "2acbf5f1b73bf7e8",
+                      "parentUid": "a226c9bfdfc044e0949484055c01d14f",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397222680,
+                        "stop": 1714397222682,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AddMultipleTrialToCartFromPDP.js"
+                },
+                {
+                  "name": "AddNonAfterpayBundleToCart.js",
+                  "children": [
+                    {
+                      "name": "Add Non-Afterpay Bundle to Cart (w/ Afterpay TTB in Cart) @ECOMM-2153 @C-8628",
+                      "uid": "a5632c474108630e",
+                      "parentUid": "a2fa484c52d143f9cf5ef7502a88d1c5",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397223690,
+                        "stop": 1714397223691,
+                        "duration": 1
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AddNonAfterpayBundleToCart.js"
+                },
+                {
+                  "name": "AddSingleBundleToCartFromPDP.js",
+                  "children": [
+                    {
+                      "name": "Add Single Bundle to Cart from PDP @ECOMM-2138 @C-8572",
+                      "uid": "ff57d2c2bc77c4f",
+                      "parentUid": "93223ba02391f45dd110b5073bfead06",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397224736,
+                        "stop": 1714397224738,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AddSingleBundleToCartFromPDP.js"
+                },
+                {
+                  "name": "AddTotalTransformationBundleWAfterpayToCart.js",
+                  "children": [
+                    {
+                      "name": "Add TTB Bundle to Cart from PDP (w/ Afterpay) @ECOMM-2152 @C-8576",
+                      "uid": "cefa1264bc298330",
+                      "parentUid": "8fbfdfbdcf33dd6111a597309c13c544",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397226023,
+                        "stop": 1714397226025,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AddTotalTransformationBundleWAfterpayToCart.js"
+                },
+                {
+                  "name": "AddTrialToCartFromPDP.js",
+                  "children": [
+                    {
+                      "name": "Add 7 days free trial to Cart from PDP @ECOMM-2140 @C-8574",
+                      "uid": "55756117a782d79d",
+                      "parentUid": "7ec1b1dccf0a6370a0c2b4cf8393d476",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397227072,
+                        "stop": 1714397227073,
+                        "duration": 1
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AddTrialToCartFromPDP.js"
+                },
+                {
+                  "name": "AddTrialToCartWithAfterPayTTBInCart.js",
+                  "children": [
+                    {
+                      "name": "Add Trial to Cart (w/ Afterpay TTB in Cart) @ECOMM-2169 @C-8690",
+                      "uid": "c90d28bac78586f4",
+                      "parentUid": "8a2bad5597bf1cc7b97feab768ae285b",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397228173,
+                        "stop": 1714397228174,
+                        "duration": 1
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AddTrialToCartWithAfterPayTTBInCart.js"
+                },
+                {
+                  "name": "AddTrialToCartWithBundleInCart.js",
+                  "children": [
+                    {
+                      "name": "Add Trial Bundle to Cart from PDP with a bundle in cart @ECOMM-2168 @C-8689",
+                      "uid": "20e3d3195ef4b5c5",
+                      "parentUid": "c442eccffc7f7d5f3fe55b638df09394",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397229044,
+                        "stop": 1714397229046,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AddTrialToCartWithBundleInCart.js"
+                },
+                {
+                  "name": "IncrementBundlesInMiniCart.js",
+                  "children": [
+                    {
+                      "name": "Increment Bundles in Mini Cart @ECOMM-2172 @C-8693",
+                      "uid": "24f20423bd38821c",
+                      "parentUid": "7c925bcffe5b367efbbd35503ca9645a",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397229970,
+                        "stop": 1714397229972,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "IncrementBundlesInMiniCart.js"
+                },
+                {
+                  "name": "LoadBundleProduct.js",
+                  "children": [
+                    {
+                      "name": "Load Bundle Product PDP @ECOMM-2137 @C-8571",
+                      "uid": "aa8a6e501dca5a36",
+                      "parentUid": "20b47c94004ef6e7d6be3db9d9c6e291",
+                      "status": "passed",
+                      "time": {
+                        "start": 1714397230987,
+                        "stop": 1714397240029,
+                        "duration": 9042
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "LoadBundleProduct.js"
+                }
+              ],
+              "uid": "2e9834131c7f1d60b5aaf723a7669c7c"
+            },
+            {
+              "name": "Shopping",
+              "children": [
+                {
+                  "name": "AddALaCarteProductToCart.js",
+                  "children": [
+                    {
+                      "name": "Add A La Carte Product to Cart @ECOMM-2170 @C-8691",
+                      "uid": "d1964a10d3694a47",
+                      "parentUid": "7130f844b9b2d1c5863a32c5e2c08078",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397241581,
+                        "stop": 1714397241582,
+                        "duration": 1
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AddALaCarteProductToCart.js"
+                },
+                {
+                  "name": "ViewALaCarteProductPage.js",
+                  "children": [
+                    {
+                      "name": "View A La Carte Product Page @ECOMM-2171 @C-8247",
+                      "uid": "47cfed24db0b68b4",
+                      "parentUid": "b58e239c0f93a9798b4f05853a24e09f",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397242567,
+                        "stop": 1714397242569,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "ViewALaCarteProductPage.js"
+                }
+              ],
+              "uid": "79081bdedc04df419d09dda6566145c7"
+            },
+            {
+              "name": "Activation-Code-Pages.Amazon-Activation-Code",
+              "children": [
+                {
+                  "name": "AMZAddDigitalMembershipToCart.js",
+                  "children": [
+                    {
+                      "name": "AMZ - Add 12 Month Subscription @ECOMM-2201 @C-8880",
+                      "uid": "fa9fd622e58ffcba",
+                      "parentUid": "1bb1c3b0bbfd9f955418a30b910c0163",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397243469,
+                        "stop": 1714397243471,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AMZAddDigitalMembershipToCart.js"
+                },
+                {
+                  "name": "AMZAddDigitalMembershipToCartWithTrialInCart.js",
+                  "children": [
+                    {
+                      "name": "AMZ - Add digital membership with trial in cart @ECOMM-2203 @C-8999",
+                      "uid": "503dd07f0ad7f76e",
+                      "parentUid": "140372fd590c00c3b9d7ff459ab61e95",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397244369,
+                        "stop": 1714397244371,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AMZAddDigitalMembershipToCartWithTrialInCart.js"
+                },
+                {
+                  "name": "AMZAddTTBToCartWithTTBInCart.js",
+                  "children": [
+                    {
+                      "name": "AMZ - Add TTB Subscription @ECOMM-2202 @C-8998",
+                      "uid": "7e6d21b482adba1c",
+                      "parentUid": "2210e1972e88906898303c61ebede656",
+                      "status": "skipped",
+                      "time": {
+                        "start": 1714397245481,
+                        "stop": 1714397245483,
+                        "duration": 2
+                      },
+                      "flaky": false,
+                      "newFailed": false,
+                      "newPassed": false,
+                      "newBroken": false,
+                      "retriesCount": 0,
+                      "retriesStatusChange": false,
+                      "parameters": [],
+                      "tags": []
+                    }
+                  ],
+                  "uid": "AMZAddTTBToCartWithTTBInCart.js"
+                }
+              ],
+              "uid": "Activation-Code-Pages.Amazon-Activation-Code"
+            }
+          ],
+          "uid": "1a55b56faff7a140e0746f8ca62ac944"
+        }
+      ],
+      "uid": "cypress.integration.End-To-End-Smoke"
+    }
+  ],
+  "name": "packages"
+}

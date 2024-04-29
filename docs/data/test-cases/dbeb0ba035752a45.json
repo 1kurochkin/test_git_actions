@@ -1,0 +1,37 @@
+{
+  "uid": "dbeb0ba035752a45",
+  "name": "Series page elements (unenrolled) @STREAM-2772 @C-8122",
+  "fullName": "Series page elements (unenrolled) @STREAM-2772 @C-8122",
+  "historyId": "39b7706294e9835d730f2b0fa610e664",
+  "time": { "start": 1714397183656, "stop": 1714397183658, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Series.SeriesPageElementsUnenrolled.js"
+    },
+    { "name": "suite", "value": "Series Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "dbeb0ba035752a45.json",
+  "parameterValues": []
+}

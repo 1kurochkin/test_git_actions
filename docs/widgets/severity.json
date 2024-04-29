@@ -1,0 +1,510 @@
+[
+  {
+    "uid": "c31d219c263c229a",
+    "name": "Log out of the app@STREAM-2577 @C-7677",
+    "time": { "start": 1714397158810, "stop": 1714397158812, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "fa9fd622e58ffcba",
+    "name": "AMZ - Add 12 Month Subscription @ECOMM-2201 @C-8880",
+    "time": { "start": 1714397243469, "stop": 1714397243471, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "96595776df6f57bc",
+    "name": "Upsell Carousel - Add to Cart from Carousel @ECOMM-2198 @C-8990",
+    "time": { "start": 1714397205568, "stop": 1714397205570, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "7584335649f1bade",
+    "name": "Series page elements (enrolled) @STREAM-2773 @C-8299",
+    "time": { "start": 1714397182416, "stop": 1714397182418, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "cefa1264bc298330",
+    "name": "Add TTB Bundle to Cart from PDP (w/ Afterpay) @ECOMM-2152 @C-8576",
+    "time": { "start": 1714397226023, "stop": 1714397226025, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "20e3d3195ef4b5c5",
+    "name": "Add Trial Bundle to Cart from PDP with a bundle in cart @ECOMM-2168 @C-8689",
+    "time": { "start": 1714397229044, "stop": 1714397229046, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "935f05d3ac199031",
+    "name": "Verify user is able to reserve a live class @STREAM-2815 @C-7699",
+    "time": {
+      "start": 1714397165113,
+      "stop": 1714397177443,
+      "duration": 12330
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "10146459ed5566cd",
+    "name": "Forgot Password @STREAM-2819 @C-8039",
+    "time": { "start": 1714397149695, "stop": 1714397149697, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "3f6f62740e5facd5",
+    "name": "Enroll to a series @STREAM-2685 @C-7702",
+    "time": { "start": 1714397180416, "stop": 1714397180418, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "af64bb6869f326f7",
+    "name": "Verify Home page elements (Enrolled in a series) @STREAM-2766 @C-8055",
+    "time": { "start": 1714397189018, "stop": 1714397189020, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "dbeb0ba035752a45",
+    "name": "Series page elements (unenrolled) @STREAM-2772 @C-8122",
+    "time": { "start": 1714397183656, "stop": 1714397183658, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "a67aae540d1eca99",
+    "name": "Header Navigation Series @STREAM-2679 @C-8048",
+    "time": { "start": 1714397148720, "stop": 1714397148721, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "1ad3e7b6613adea0",
+    "name": "Verify Search Bar is working (valid search) @STREAM-2770 @C-8072",
+    "time": { "start": 1714397144635, "stop": 1714397144637, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "ed9267016a371668",
+    "name": "Verify Workout Detail Pane is closing @STREAM-2684 @C-8064",
+    "time": { "start": 1714397203539, "stop": 1714397203541, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "cff08246d152f6cf",
+    "name": "Decrement Bundles in Mini Cart @ECOMM-2173 @C-8694",
+    "time": { "start": 1714397207548, "stop": 1714397207550, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "39d3599ce46eb6ec",
+    "name": "Decrement A La Carte from Mini Cart @ECOMM-2187 @C-8236",
+    "time": { "start": 1714397206633, "stop": 1714397206635, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "48ec51b67288882f",
+    "name": " Verify User is able to reproduce a workout from Workout Detail Pane @STREAM-2820 @C-7690",
+    "time": { "start": 1714397194547, "stop": 1714397194548, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "9bb159a59dff14f5",
+    "name": "Multiple valid Filter query (same filter category) @STREAM-2641 @C-8079",
+    "time": { "start": 1714397142697, "stop": 1714397142699, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "47cfed24db0b68b4",
+    "name": "View A La Carte Product Page @ECOMM-2171 @C-8247",
+    "time": { "start": 1714397242567, "stop": 1714397242569, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "5c39e22f6d38cdce",
+    "name": "Leave enrolled series @STREAM-2686 @C-7703",
+    "time": { "start": 1714397181389, "stop": 1714397181391, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "3ee7cc1529b4ea8e",
+    "name": "Removing Bundle In Mini Cart @ECOMM-2182 @C-8235",
+    "time": { "start": 1714397212659, "stop": 1714397212661, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "4cd0446e034f5d4e",
+    "name": "Verify Sort by is working @STREAM-2929 @C-8073",
+    "time": { "start": 1714397145618, "stop": 1714397145620, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "f1894db596db03b2",
+    "name": "Remove from Favorites From Workout Detail Pane @STREAM-2681 @C-8067",
+    "time": { "start": 1714397186140, "stop": 1714397186142, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "3c06adb1c2d747f4",
+    "name": "Upsell Carousel - A La Carte Carousel Contents @ECOMM-2197 @C-8991",
+    "time": { "start": 1714397216002, "stop": 1714397216004, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "a1e5b3734886e66",
+    "name": "Multiple valid Filter query (different filter categories) @STREAM-2642 @C-8080",
+    "time": { "start": 1714397141683, "stop": 1714397141684, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "495cf618207b442a",
+    "name": "Add Multiple Bundles to Cart from PDP @ECOMM-2139 @C-8573",
+    "time": { "start": 1714397221649, "stop": 1714397221655, "duration": 6 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "8108f40519b8e0f6",
+    "name": "Verify series is updated when a workout is completed @STREAM-2924 @C-7689",
+    "time": { "start": 1714397191372, "stop": 1714397191373, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "655ed7185750260f",
+    "name": "Removing TTB Afterpay in Mini Cart @ECOMM-2185 @C-8755",
+    "time": { "start": 1714397213715, "stop": 1714397213717, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "7966e53da5e28ed0",
+    "name": "Verify toggle for Favorites is working @STREAM-2927 @C-8074",
+    "time": { "start": 1714397146531, "stop": 1714397146532, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "c90d28bac78586f4",
+    "name": "Add Trial to Cart (w/ Afterpay TTB in Cart) @ECOMM-2169 @C-8690",
+    "time": { "start": 1714397228173, "stop": 1714397228174, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "116876c0f7572d3f",
+    "name": "Verify user is able to cancel live class reservation @STREAM-2817 @C-7700",
+    "time": { "start": 1714397163561, "stop": 1714397163562, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "322449f971f0dd65",
+    "name": "Header Navigation Shop @STREAM-2679 @C-7680",
+    "time": { "start": 1714397148723, "stop": 1714397148724, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "470ef17a44d5633f",
+    "name": "Upsell Carousel - Remove from Cart upsell item from Carousel @ECOMM-2199 @C-8992",
+    "time": { "start": 1714397214811, "stop": 1714397214813, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "74dcef39e7876e46",
+    "name": "Incrementing A La Carte in Mini Cart @ECOMM-2186 @C-8238",
+    "time": { "start": 1714397210663, "stop": 1714397210665, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "ff57d2c2bc77c4f",
+    "name": "Add Single Bundle to Cart from PDP @ECOMM-2138 @C-8572",
+    "time": { "start": 1714397224736, "stop": 1714397224738, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "499f86b42628b2dd",
+    "name": "Verify Carousel Content with TTB in Cart @ECOMM-2206 @C-8994",
+    "time": { "start": 1714397219205, "stop": 1714397219207, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "503dd07f0ad7f76e",
+    "name": "AMZ - Add digital membership with trial in cart @ECOMM-2203 @C-8999",
+    "time": { "start": 1714397244369, "stop": 1714397244371, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "dc0a9a82c9e7755b",
+    "name": "Verify Home page elements (NOT enrolled in a series) @STREAM-2767 @C-8298",
+    "time": { "start": 1714397189991, "stop": 1714397189993, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "63c31dee0dbe6605",
+    "name": "Header Navigation Classes @STREAM-2679 @C-8049",
+    "time": { "start": 1714397148721, "stop": 1714397148722, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "c254b8573e8cbbed",
+    "name": "Verify Stats increments - On-Demand @STREAM-2821 @C-7683",
+    "time": { "start": 1714397192471, "stop": 1714397192472, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "4ce99c139366f104",
+    "name": "Verify User is able to leave series from home page @STREAM-2926 @C-8070",
+    "time": { "start": 1714397193521, "stop": 1714397193524, "duration": 3 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "6ae5110b13f653c4",
+    "name": "Header Navigation Franchise @STREAM-2679 @C-7682",
+    "time": { "start": 1714397148725, "stop": 1714397148726, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "a917ff7acc1a9af9",
+    "name": "Decrement Trial in Mini Cart @ECOMM-2209 @C-8996",
+    "time": { "start": 1714397208619, "stop": 1714397208620, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "de68f7c73d999de7",
+    "name": "Verify Workout Detail Pane is opening @STREAM-2682 @C-7686",
+    "time": { "start": 1714397204554, "stop": 1714397204555, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "fa548ebc32b65820",
+    "name": "Verify toggle switch for Watched is working @STREAM-2928 @C-8075",
+    "time": { "start": 1714397147605, "stop": 1714397147607, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "2acbf5f1b73bf7e8",
+    "name": "Add multiple 7 days free trial to Cart from PDP @ECOMM-2154 @C-8629",
+    "time": { "start": 1714397222680, "stop": 1714397222682, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "478a4f056cf4f83a",
+    "name": "Header Navigation Locations @STREAM-2679 @C-7681",
+    "time": { "start": 1714397148724, "stop": 1714397148725, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "23d9a1428369aaef",
+    "name": "Add Bundle to Cart with Trial from PDP @ECOMM-2141 @C-8575",
+    "time": { "start": 1714397220334, "stop": 1714397220336, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "663a7c028bb52e61",
+    "name": "Single valid Filter query @STREAM-2640 @C-8078",
+    "time": { "start": 1714397143691, "stop": 1714397143693, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "b41fc722700085ad",
+    "name": "Live page elements @STREAM-2774 @C-8141",
+    "time": { "start": 1714397160025, "stop": 1714397160026, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "55756117a782d79d",
+    "name": "Add 7 days free trial to Cart from PDP @ECOMM-2140 @C-8574",
+    "time": { "start": 1714397227072, "stop": 1714397227073, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "676ac372b0f0b6f8",
+    "name": "Add To Favorites From Workout Detail Pane @STREAM-2680 @C-8065",
+    "time": { "start": 1714397184695, "stop": 1714397184697, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "467ae24aab3beb06",
+    "name": "Verify Carousel Content with TTB with after pay in Cart @ECOMM-2207 @C-8995",
+    "time": { "start": 1714397218064, "stop": 1714397218065, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "e44142c44de3be4a",
+    "name": "Header Navigation Home @STREAM-2679 @C-8044",
+    "time": { "start": 1714397148717, "stop": 1714397148720, "duration": 3 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "d1964a10d3694a47",
+    "name": "Add A La Carte Product to Cart @ECOMM-2170 @C-8691",
+    "time": { "start": 1714397241581, "stop": 1714397241582, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "ab327d1626a4af70",
+    "name": "Verify Workout Detail Pane elements direct link @STREAM-2925 @C-8068",
+    "time": { "start": 1714397187163, "stop": 1714397187164, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "c3baf33e8725ac85",
+    "name": "Verify Workout Detail Pane elements @STREAM-2683 @C-8063",
+    "time": { "start": 1714397195628, "stop": 1714397202445, "duration": 6817 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "af7e71588760b0cf",
+    "name": "Verify Categories at the top of the page @STREAM-2578 @C-8071",
+    "time": { "start": 1714397130267, "stop": 1714397130269, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "5f4cbebf062264e1",
+    "name": "Verify Filters are working correctly (3 filter different categories) @STREAM-2580 @C-7692",
+    "time": { "start": 1714397140649, "stop": 1714397140651, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "462bfdb1832cbed0",
+    "name": "Verify filter modal - elements @STREAM-2579 @C-8077",
+    "time": { "start": 1714397132765, "stop": 1714397139309, "duration": 6544 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "aa8a6e501dca5a36",
+    "name": "Load Bundle Product PDP @ECOMM-2137 @C-8571",
+    "time": { "start": 1714397230987, "stop": 1714397240029, "duration": 9042 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "7e6d21b482adba1c",
+    "name": "AMZ - Add TTB Subscription @ECOMM-2202 @C-8998",
+    "time": { "start": 1714397245481, "stop": 1714397245483, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "b913c1a65510ce70",
+    "name": "Remove A La Carte in Mini Cart @ECOMM-2188 @C-8756",
+    "time": { "start": 1714397211649, "stop": 1714397211651, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "648909ff54a40db3",
+    "name": "Increment Trial in Mini Cart @ECOMM-2208 @C-8278",
+    "time": { "start": 1714397209638, "stop": 1714397209640, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "631c408f63d2148",
+    "name": "Verify enrolled Series is displayed in home page @STREAM-2769 @C-7685",
+    "time": { "start": 1714397188137, "stop": 1714397188139, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "defe28ef4e9fc552",
+    "name": "Clicking on Month Day opens schedule for that day @STREAM-2816 @C-8143",
+    "time": { "start": 1714397161297, "stop": 1714397161299, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "a70ab02cfb9ccc85",
+    "name": "Log into the app with valid user @STREAM-2569 @C-7676",
+    "time": { "start": 1714397150724, "stop": 1714397156543, "duration": 5819 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "a5632c474108630e",
+    "name": "Add Non-Afterpay Bundle to Cart (w/ Afterpay TTB in Cart) @ECOMM-2153 @C-8628",
+    "time": { "start": 1714397223690, "stop": 1714397223691, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "4ddf09a16a6889f3",
+    "name": "Clear all filters (part and outside of the Filter modal) @STREAM-2771 @C-8083",
+    "time": { "start": 1714397131410, "stop": 1714397131412, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "24f20423bd38821c",
+    "name": "Increment Bundles in Mini Cart @ECOMM-2172 @C-8693",
+    "time": { "start": 1714397229970, "stop": 1714397229972, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "ebcdd2f83f74ffa7",
+    "name": "Verify Carousel Content with Single Bundle in Cart @ECOMM-2200 @C-8993",
+    "time": { "start": 1714397217074, "stop": 1714397217076, "duration": 2 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "706248c7d85d19dd",
+    "name": "Header Navigation Live @STREAM-2679 @C-8053",
+    "time": { "start": 1714397148722, "stop": 1714397148723, "duration": 1 },
+    "status": "skipped",
+    "severity": "normal"
+  }
+]

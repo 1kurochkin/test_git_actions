@@ -1,0 +1,37 @@
+{
+  "uid": "1ad3e7b6613adea0",
+  "name": "Verify Search Bar is working (valid search) @STREAM-2770 @C-8072",
+  "fullName": "Verify Search Bar is working (valid search) @STREAM-2770 @C-8072",
+  "historyId": "37aa39daf99795eceadb899ba239297f",
+  "time": { "start": 1714397144635, "stop": 1714397144637, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Classes.VerifySearchBarIsWorkingValidSearch.js"
+    },
+    { "name": "suite", "value": "Classes Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "1ad3e7b6613adea0.json",
+  "parameterValues": []
+}

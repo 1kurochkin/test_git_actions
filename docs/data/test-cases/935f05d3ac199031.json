@@ -1,0 +1,1259 @@
+{
+  "uid": "935f05d3ac199031",
+  "name": "Verify user is able to reserve a live class @STREAM-2815 @C-7699",
+  "fullName": "Verify user is able to reserve a live class @STREAM-2815 @C-7699",
+  "historyId": "d0ac24513afe95c88ccddb1f27cd94dd",
+  "time": { "start": 1714397165113, "stop": 1714397177443, "duration": 12330 },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "\"before each\" hook",
+        "time": {
+          "start": 1714397165114,
+          "stop": 1714397165141,
+          "duration": 27
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "setMetadataToAllureReport (\"[Object]\")",
+            "time": {
+              "start": 1714397165137,
+              "stop": 1714397165138,
+              "duration": 1
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 1,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "loginRechargeUserAndStoreAuthToken",
+        "time": {
+          "start": 1714397165142,
+          "stop": 1714397172250,
+          "duration": 7108
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "intercept (\"POST\"; \"https://cognito-idp.us-east-1.amazonaws.com\")",
+            "time": {
+              "start": 1714397165142,
+              "stop": 1714397165151,
+              "duration": 9
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "as (\"loginRequest\")",
+            "time": {
+              "start": 1714397165151,
+              "stop": 1714397165152,
+              "duration": 1
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "visit https://app.qa.pvolve.com/continue -> 302: https://app.qa.pvolve.com/continue/",
+            "time": {
+              "start": 1714397165152,
+              "stop": 1714397168846,
+              "duration": 3694
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get input[name=\"email\"]",
+            "time": {
+              "start": 1714397168846,
+              "stop": 1714397168852,
+              "duration": 6
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "type automation.test+1@test.com",
+            "time": {
+              "start": 1714397168852,
+              "stop": 1714397169617,
+              "duration": 765
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get button[type=\"submit\"]",
+            "time": {
+              "start": 1714397169617,
+              "stop": 1714397169629,
+              "duration": 12
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "click",
+            "time": {
+              "start": 1714397169629,
+              "stop": 1714397169718,
+              "duration": 89
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get input[name=\"password\"]",
+            "time": {
+              "start": 1714397169718,
+              "stop": 1714397170313,
+              "duration": 595
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "new url https://app.qa.pvolve.com/login",
+            "time": {
+              "start": 1714397170313,
+              "stop": 1714397170313,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "type Password1234!",
+            "time": {
+              "start": 1714397170313,
+              "stop": 1714397170595,
+              "duration": 282
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get button[type=\"submit\"]",
+            "time": {
+              "start": 1714397170596,
+              "stop": 1714397170599,
+              "duration": 3
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "click",
+            "time": {
+              "start": 1714397170599,
+              "stop": 1714397170678,
+              "duration": 79
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "wait @loginRequest",
+            "time": {
+              "start": 1714397170678,
+              "stop": 1714397172235,
+              "duration": 1557
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "page load --page loaded--",
+            "time": {
+              "start": 1714397172235,
+              "stop": 1714397172235,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "new url https://app.qa.pvolve.com/home",
+            "time": {
+              "start": 1714397172235,
+              "stop": 1714397172235,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "wrap eyJraWQiOiJVOElXajhIXC85cGlQdVVtRTlpVEtcL0l3Sm55UHVOUFp3WnNlcEtDYlZ3ak09IiwiYWxnIjoiUlMyNTYifQ.eyJlbnRpdGxlbWVudHMiOiJbXCJhbGxcIl0iLCJzdWIiOiIzOTJhMmIxMS0zNDZjLTRmNDgtYWYyZi0xYTBjMTc4NjI1ZjEiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZW50aXRsZW1lbnRfc291cmNlIjoicmVjaGFyZ2UiLCJjdXN0b206c3RyaXBlX2N1c3RvbWVyX2lkIjoiY3VzX1Byd1VaT3ZDb2R5Z0t2IiwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfM3pjbTUzYThrIiwiY29nbml0bzp1c2VybmFtZSI6IjM5MmEyYjExLTM0NmMtNGY0OC1hZjJmLTFhMGMxNzg2MjVmMSIsImdpdmVuX25hbWUiOiJ0ZXN0IiwiYXVkIjoiaTJqaGVmczc4aDRpdWJtcmhvN3FwazY1IiwiZXZlbnRfaWQiOiJhY2MzNjY0ZC1jYjQyLTQ2YWMtODMxMS0yNzVjOTY0NGFiNGUiLCJjdXN0b206cmVjaGFyZ2VfY3VzdG9tZXJfaWQiOiIxNDMxNjM5OTUiLCJjdXN0b206c2hvcGlmeV9jdXN0b21lcl9pZCI6IjY0MzUyMTcxMTMyMjgiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTcxNDM5NzE3MSwiY3VzdG9tOm10X2N1c3RvbWVyX2lkIjoiMzk2MDUiLCJleHAiOjE3MTQ0MDA3NzEsImlzX3RyaWFsIjoiZmFsc2UiLCJpYXQiOjE3MTQzOTcxNzEsImZhbWlseV9uYW1lIjoidGVzdCIsImVudGl0bGVkX2F0IjoiMjAyNC0wNC0wNVQxMzoxNDoxOVoiLCJlbWFpbCI6ImF1dG9tYXRpb24udGVzdCsxQHRlc3QuY29tIn0.POUPHgnVUuEqSQmWTSxB4EwGA5FqFFrfbgff61o5nDeFysMvQWfWM9qTcRB-Pq5eKMz0oXu-22nmb1lAS0fcvjCgZgD4i84FH1wJsqAToY2bQjZvN3eyY4iCo01Y3BPFPzPGB12neKQJLXq_ZjmONGvgZYhLR40tZfWVxcHapEPqbeFpHKOz83ScM3uKc2P4g0yGkhxy-GD0lnCktoXfPpDorkBCesnEfNI8zERigph2dDE7OI7wls3HWB79U5yAuLOCRQ7BUNOPtD8UAYEgtQe7sGd6CzhpJpO0r-J4GzMCrAJTJa77eTJptMhhaPSooi2akElNfKOsVPHYk5WCRg",
+            "time": {
+              "start": 1714397172237,
+              "stop": 1714397172249,
+              "duration": 12
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "as (\"authToken\")",
+            "time": {
+              "start": 1714397172249,
+              "stop": 1714397172250,
+              "duration": 1
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 17,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"menu-home\"]",
+        "time": {
+          "start": 1714397172250,
+          "stop": 1714397172255,
+          "duration": 5
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"menu-classes\"]",
+        "time": {
+          "start": 1714397172255,
+          "stop": 1714397172259,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-12' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-13' } ]\")",
+        "time": {
+          "start": 1714397172260,
+          "stop": 1714397172284,
+          "duration": 24
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397172260,
+              "stop": 1714397172277,
+              "duration": 17
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeLarge.MuiButton-textSizeLarge.selected.css-bi6eze>** to be **visible**",
+            "time": {
+              "start": 1714397172277,
+              "stop": 1714397172277,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397172277,
+              "stop": 1714397172284,
+              "duration": 7
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeLarge.MuiButton-textSizeLarge.css-bi6eze>** to be **visible**",
+            "time": {
+              "start": 1714397172284,
+              "stop": 1714397172284,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 4,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "visit https://app.qa.pvolve.com/live",
+        "time": {
+          "start": 1714397172284,
+          "stop": 1714397173329,
+          "duration": 1045
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"get-lvs-image\"]",
+        "time": {
+          "start": 1714397173329,
+          "stop": 1714397173331,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get h2[data-test-id=\"get-lvs-title\"]",
+        "time": {
+          "start": 1714397173331,
+          "stop": 1714397173332,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertVisible (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-16' }, $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-17' } ]\")",
+        "time": {
+          "start": 1714397173333,
+          "stop": 1714397173339,
+          "duration": 6
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397173333,
+              "stop": 1714397173336,
+              "duration": 3
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<aside.css-n2pas3>** to be **visible**",
+            "time": {
+              "start": 1714397173336,
+              "stop": 1714397173336,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "scrollIntoView",
+            "time": {
+              "start": 1714397173336,
+              "stop": 1714397173339,
+              "duration": 3
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "assert expected **<h2.MuiTypography-root.MuiTypography-h2.css-11ulyjy>** to be **visible**",
+            "time": {
+              "start": 1714397173339,
+              "stop": 1714397173339,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 4,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "pickNextDayInLvsCalendar (\"12\")",
+        "time": {
+          "start": 1714397173339,
+          "stop": 1714397173563,
+          "duration": 224
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "get button > p",
+            "time": {
+              "start": 1714397173340,
+              "stop": 1714397173343,
+              "duration": 3
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "log Was it found?, false",
+            "time": {
+              "start": 1714397173343,
+              "stop": 1714397173344,
+              "duration": 1
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "get [data-testid=\"NavigateNextIcon\"]",
+            "time": {
+              "start": 1714397173344,
+              "stop": 1714397173346,
+              "duration": 2
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "click {force: true}",
+            "time": {
+              "start": 1714397173346,
+              "stop": 1714397173410,
+              "duration": 64
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "pickNextDayInLvsCalendar (\"12\")",
+            "time": {
+              "start": 1714397173410,
+              "stop": 1714397173563,
+              "duration": 153
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "get button > p",
+                "time": {
+                  "start": 1714397173410,
+                  "stop": 1714397173413,
+                  "duration": 3
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "wrap <p.MuiTypography-root.MuiTypography-body1.css-t8hou0>",
+                "time": {
+                  "start": 1714397173413,
+                  "stop": 1714397173416,
+                  "duration": 3
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "assert expected **<p.MuiTypography-root.MuiTypography-body1.css-t8hou0>** to exist in the DOM",
+                "time": {
+                  "start": 1714397173416,
+                  "stop": 1714397173416,
+                  "duration": 0
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [
+                  {
+                    "name": "actual",
+                    "value": "<p.MuiTypography-root.MuiTypography-body1.css-t8hou0>"
+                  },
+                  {
+                    "name": "expected",
+                    "value": "<p.MuiTypography-root.MuiTypography-body1.css-t8hou0>"
+                  }
+                ],
+                "hasContent": true,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "wrap <p.MuiTypography-root.MuiTypography-body1.css-t8hou0>",
+                "time": {
+                  "start": 1714397173416,
+                  "stop": 1714397173417,
+                  "duration": 1
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "click {force: true}",
+                "time": {
+                  "start": 1714397173418,
+                  "stop": 1714397173489,
+                  "duration": 71
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "log Was it found?, true",
+                "time": {
+                  "start": 1714397173489,
+                  "stop": 1714397173490,
+                  "duration": 1
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "get button > p",
+                "time": {
+                  "start": 1714397173490,
+                  "stop": 1714397173494,
+                  "duration": 4
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "contains Sat 11",
+                "time": {
+                  "start": 1714397173494,
+                  "stop": 1714397173497,
+                  "duration": 3
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "click {force: true}",
+                "time": {
+                  "start": 1714397173497,
+                  "stop": 1714397173556,
+                  "duration": 59
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "get [data-test-id=\"get-live-current-date\"] > h4",
+                "time": {
+                  "start": 1714397173556,
+                  "stop": 1714397173559,
+                  "duration": 3
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "assertTextContains (\"Saturday, May 11\")",
+                "time": {
+                  "start": 1714397173559,
+                  "stop": 1714397173563,
+                  "duration": 4
+                },
+                "status": "passed",
+                "steps": [
+                  {
+                    "name": "wrap <h4.MuiTypography-root.MuiTypography-h4.css-1ey8tev>",
+                    "time": {
+                      "start": 1714397173559,
+                      "stop": 1714397173563,
+                      "duration": 4
+                    },
+                    "status": "passed",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "hasContent": false,
+                    "shouldDisplayMessage": false,
+                    "stepsCount": 0,
+                    "attachmentsCount": 0,
+                    "attachmentStep": false
+                  },
+                  {
+                    "name": "assert expected **saturday, may 11** to include **saturday, may 11**",
+                    "time": {
+                      "start": 1714397173563,
+                      "stop": 1714397173563,
+                      "duration": 0
+                    },
+                    "status": "passed",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [
+                      { "name": "actual", "value": "saturday, may 11" }
+                    ],
+                    "hasContent": true,
+                    "shouldDisplayMessage": false,
+                    "stepsCount": 0,
+                    "attachmentsCount": 0,
+                    "attachmentStep": false
+                  }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": true,
+                "shouldDisplayMessage": false,
+                "stepsCount": 2,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": true,
+            "shouldDisplayMessage": false,
+            "stepsCount": 13,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 18,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "intercept (\"POST\"; \"studios/reservation\")",
+        "time": {
+          "start": 1714397173563,
+          "stop": 1714397173577,
+          "duration": 14
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "as (\"reservationRequest\")",
+        "time": {
+          "start": 1714397173577,
+          "stop": 1714397173578,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [data-test-id=\"get-reserve-button\"]",
+        "time": {
+          "start": 1714397173578,
+          "stop": 1714397174327,
+          "duration": 749
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "first",
+        "time": {
+          "start": 1714397174327,
+          "stop": 1714397174330,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "click {force: true}",
+        "time": {
+          "start": 1714397174330,
+          "stop": 1714397174392,
+          "duration": 62
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "wait @reservationRequest",
+        "time": {
+          "start": 1714397174392,
+          "stop": 1714397177426,
+          "duration": 3034
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "get [id=\"customized-dialog-title\"]",
+        "time": {
+          "start": 1714397177429,
+          "stop": 1714397177437,
+          "duration": 8
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "assertExist (\"[ $Chainer [Object: null prototype] { specWindow: [Object], chainerId: 'ch-https://qa.pvolve.com-42' } ]\")",
+        "time": {
+          "start": 1714397177437,
+          "stop": 1714397177437,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "\"after each\" hook",
+        "time": {
+          "start": 1714397177453,
+          "stop": 1714397179243,
+          "duration": 1790
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "cancelLvsReservation (\"14876\")",
+            "time": {
+              "start": 1714397177453,
+              "stop": 1714397179243,
+              "duration": 1790
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "getAuthToken",
+                "time": {
+                  "start": 1714397177453,
+                  "stop": 1714397177455,
+                  "duration": 2
+                },
+                "status": "passed",
+                "steps": [
+                  {
+                    "name": "get @authToken",
+                    "time": {
+                      "start": 1714397177453,
+                      "stop": 1714397177455,
+                      "duration": 2
+                    },
+                    "status": "passed",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "hasContent": false,
+                    "shouldDisplayMessage": false,
+                    "stepsCount": 0,
+                    "attachmentsCount": 0,
+                    "attachmentStep": false
+                  }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": true,
+                "shouldDisplayMessage": false,
+                "stepsCount": 1,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              },
+              {
+                "name": "sendPost (\"/studios/reservation/14876/cancel\"; \"eyJraWQiOiJVOElXajhIXC85cGlQdVVtRTlpVEtcL0l3Sm55UHVOUFp3WnNlcEtDYlZ3ak09IiwiYWxnIjoiUlMyNTYifQ.eyJlbnRpdGxlbWVudHMiOiJbXCJhbGxcIl0iLCJzdWIiOiIzOTJhMmIxMS0zNDZjLTRmNDgtYWYyZi0xYTBjMTc4NjI1ZjEiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZW50aXRsZW1lbnRfc291cmNlIjoicmVjaGFyZ2UiLCJjdXN0b206c3RyaXBlX2N1c3RvbWVyX2lkIjoiY3VzX1Byd1VaT3ZDb2R5Z0t2IiwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfM3pjbTUzYThrIiwiY29nbml0bzp1c2VybmFtZSI6IjM5MmEyYjExLTM0NmMtNGY0OC1hZjJmLTFhMGMxNzg2MjVmMSIsImdpdmVuX25hbWUiOiJ0ZXN0IiwiYXVkIjoiaTJqaGVmczc4aDRpdWJtcmhvN3FwazY1IiwiZXZlbnRfaWQiOiJhY2MzNjY0ZC1jYjQyLTQ2YWMtODMxMS0yNzVjOTY0NGFiNGUiLCJjdXN0b206cmVjaGFyZ2VfY3VzdG9tZXJfaWQiOiIxNDMxNjM5OTUiLCJjdXN0b206c2hvcGlmeV9jdXN0b21lcl9pZCI6IjY0MzUyMTcxMTMyMjgiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTcxNDM5NzE3MSwiY3VzdG9tOm10X2N1c3RvbWVyX2lkIjoiMzk2MDUiLCJleHAiOjE3MTQ0MDA3NzEsImlzX3RyaWFsIjoiZmFsc2UiLCJpYXQiOjE3MTQzOTcxNzEsImZhbWlseV9uYW1lIjoidGVzdCIsImVudGl0bGVkX2F0IjoiMjAyNC0wNC0wNVQxMzoxNDoxOVoiLCJlbWFpbCI6ImF1dG9tYXRpb24udGVzdCsxQHRlc3QuY29tIn0.POUPHgnVUuEqSQmWTSxB4EwGA5FqFFrfbgff61o5nDeFysMvQWfWM9qTcRB-Pq5eKMz0oXu-22nmb1lAS0fcvjCgZgD4i84FH1wJsqAToY2bQjZvN3eyY4iCo01Y3BPFPzPGB12neKQJLXq_ZjmONGvgZYhLR40tZfWVxcHapEPqbeFpHKOz83ScM3uKc2P4g0yGkhxy-GD0lnCktoXfPpDorkBCesnEfNI8zERigph2dDE7OI7wls3HWB79U5yAuLOCRQ7BUNOPtD8UAYEgtQe7sGd6CzhpJpO0r-J4GzMCrAJTJa77eTJptMhhaPSooi2akElNfKOsVPHYk5WCRg\"; \"200\")",
+                "time": {
+                  "start": 1714397177455,
+                  "stop": 1714397179243,
+                  "duration": 1788
+                },
+                "status": "passed",
+                "steps": [
+                  {
+                    "name": "POST 200 https://api.qa.pvolve.com/studios/reservation/14876/cancel",
+                    "time": {
+                      "start": 1714397177455,
+                      "stop": 1714397179238,
+                      "duration": 1783
+                    },
+                    "status": "passed",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "hasContent": false,
+                    "shouldDisplayMessage": false,
+                    "stepsCount": 0,
+                    "attachmentsCount": 0,
+                    "attachmentStep": false
+                  },
+                  {
+                    "name": "assert expected **200** to equal **200**",
+                    "time": {
+                      "start": 1714397179243,
+                      "stop": 1714397179243,
+                      "duration": 0
+                    },
+                    "status": "passed",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [
+                      { "name": "actual", "value": "200" },
+                      { "name": "expected", "value": "200" }
+                    ],
+                    "hasContent": true,
+                    "shouldDisplayMessage": false,
+                    "stepsCount": 0,
+                    "attachmentsCount": 0,
+                    "attachmentStep": false
+                  }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": true,
+                "shouldDisplayMessage": false,
+                "stepsCount": 2,
+                "attachmentsCount": 0,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": true,
+            "shouldDisplayMessage": false,
+            "stepsCount": 5,
+            "attachmentsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "stepsCount": 6,
+        "attachmentsCount": 0,
+        "attachmentStep": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "hasContent": true,
+    "shouldDisplayMessage": false,
+    "stepsCount": 69,
+    "attachmentsCount": 0,
+    "attachmentStep": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Live.VerifyUserIsAbleToReserveLiveClass.js"
+    },
+    { "name": "suite", "value": "Live Test Suite" },
+    { "name": "owner", "value": "Carlos Rodríguez" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [
+    {
+      "name": "@STREAM-2815",
+      "url": "https://pvolve.atlassian.net/browse/STREAM-2815",
+      "type": "issue"
+    },
+    {
+      "name": "@C-7699",
+      "url": "https://pvolve.testrail.io/index.php?/cases/view/7699",
+      "type": "tms"
+    }
+  ],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "owner": "Carlos Rodríguez",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "935f05d3ac199031.json",
+  "parameterValues": []
+}

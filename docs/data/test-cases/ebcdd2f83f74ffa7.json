@@ -1,0 +1,37 @@
+{
+  "uid": "ebcdd2f83f74ffa7",
+  "name": "Verify Carousel Content with Single Bundle in Cart @ECOMM-2200 @C-8993",
+  "fullName": "Verify Carousel Content with Single Bundle in Cart @ECOMM-2200 @C-8993",
+  "historyId": "91791494f2e5279909fd3ced8011f6e7",
+  "time": { "start": 1714397217074, "stop": 1714397217076, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.MiniCart.VerifyCarouselContentWithSingleBundleInCart.js"
+    },
+    { "name": "suite", "value": "Shopping Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "ebcdd2f83f74ffa7.json",
+  "parameterValues": []
+}

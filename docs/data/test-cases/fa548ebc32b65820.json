@@ -1,0 +1,37 @@
+{
+  "uid": "fa548ebc32b65820",
+  "name": "Verify toggle switch for Watched is working @STREAM-2928 @C-8075",
+  "fullName": "Verify toggle switch for Watched is working @STREAM-2928 @C-8075",
+  "historyId": "276a90a74eaa0a81b13b14eb84afb208",
+  "time": { "start": 1714397147605, "stop": 1714397147607, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Classes.VerifyToggleSwitchForWatchedIsWorking.js"
+    },
+    { "name": "suite", "value": "Classes Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "fa548ebc32b65820.json",
+  "parameterValues": []
+}

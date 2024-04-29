@@ -1,0 +1,37 @@
+{
+  "uid": "a5632c474108630e",
+  "name": "Add Non-Afterpay Bundle to Cart (w/ Afterpay TTB in Cart) @ECOMM-2153 @C-8628",
+  "fullName": "Add Non-Afterpay Bundle to Cart (w/ Afterpay TTB in Cart) @ECOMM-2153 @C-8628",
+  "historyId": "2d044a9ed5b8ba74abb05a373a598760",
+  "time": { "start": 1714397223690, "stop": 1714397223691, "duration": 1 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.PDP.AddNonAfterpayBundleToCart.js"
+    },
+    { "name": "suite", "value": "Product Description Pages (PDP) Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "a5632c474108630e.json",
+  "parameterValues": []
+}

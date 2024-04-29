@@ -1,0 +1,37 @@
+{
+  "uid": "74dcef39e7876e46",
+  "name": "Incrementing A La Carte in Mini Cart @ECOMM-2186 @C-8238",
+  "fullName": "Incrementing A La Carte in Mini Cart @ECOMM-2186 @C-8238",
+  "historyId": "c36aebdba1bd4cad67607248a9930822",
+  "time": { "start": 1714397210663, "stop": 1714397210665, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.MiniCart.IncrementingALaCarteInMiniCart.js"
+    },
+    { "name": "suite", "value": "Mini Cart Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "74dcef39e7876e46.json",
+  "parameterValues": []
+}

@@ -1,0 +1,37 @@
+{
+  "uid": "5f4cbebf062264e1",
+  "name": "Verify Filters are working correctly (3 filter different categories) @STREAM-2580 @C-7692",
+  "fullName": "Verify Filters are working correctly (3 filter different categories) @STREAM-2580 @C-7692",
+  "historyId": "6ccc40707675544053ed669c05c857da",
+  "time": { "start": 1714397140649, "stop": 1714397140651, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Classes.FiltersResults.js"
+    },
+    { "name": "suite", "value": "Classes Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "5f4cbebf062264e1.json",
+  "parameterValues": []
+}

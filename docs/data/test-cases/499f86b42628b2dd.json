@@ -1,0 +1,37 @@
+{
+  "uid": "499f86b42628b2dd",
+  "name": "Verify Carousel Content with TTB in Cart @ECOMM-2206 @C-8994",
+  "fullName": "Verify Carousel Content with TTB in Cart @ECOMM-2206 @C-8994",
+  "historyId": "3f976039a9503a3307e8b6113fe8d7cd",
+  "time": { "start": 1714397219205, "stop": 1714397219207, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.MiniCart.VerifyCarouselContentWithTTBInCart.js"
+    },
+    { "name": "suite", "value": "Shopping Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "499f86b42628b2dd.json",
+  "parameterValues": []
+}

@@ -1,0 +1,37 @@
+{
+  "uid": "ff57d2c2bc77c4f",
+  "name": "Add Single Bundle to Cart from PDP @ECOMM-2138 @C-8572",
+  "fullName": "Add Single Bundle to Cart from PDP @ECOMM-2138 @C-8572",
+  "historyId": "941b23ded22fa8e887c2f82cfe021a88",
+  "time": { "start": 1714397224736, "stop": 1714397224738, "duration": 2 },
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.integration.End-To-End-Smoke.Ecomm.PDP.AddSingleBundleToCartFromPDP.js"
+    },
+    { "name": "suite", "value": "Product Description Pages (PDP) Test Suite" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "ff57d2c2bc77c4f.json",
+  "parameterValues": []
+}
