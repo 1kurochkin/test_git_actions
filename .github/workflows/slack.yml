@@ -1,6 +1,5 @@
 name: "Send Allure report to Slack"
 on: push
-uses: actions/github-script@v7
 jobs:
   slack:
     runs-on: ubuntu-latest
