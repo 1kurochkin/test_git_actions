@@ -7,9 +7,21 @@ jobs:
       - uses: actions/github-script@v7
         with:
           script: |
-            const summary = await fetch('https://1kurochkin.github.io/test_git_actions/docs/widgets/summary.json');
-            const summaryBody = await summary.json()
-            console.log(summaryBody)
+            const allureReportLink = "https://curly-robot-125ba1a2.pages.github.io/${{ github.event.client_payload.worksheet_name }}/${{ github.run_number }}/"
+            const summary = await fetch(allureReportLink + '/widgets/summary.json').then((res) => res.json());
+            const suites = await fetch(allureReportLink + '/widgets/suites.json').then((res) => res.json());
+            
+            await fetch(${{ secrets[github.event.client_payload.slack_webhook] }},  {method: 'POST', body: JSON.stringify({
+              status: "success", 
+              mention: "U066YFQ8X7A, U03QM6640H5, U03RWM4MR8S, U06FQC10BNK",
+              channel: ${{ github.event.client_payload.slack_channel }},
+              if_mention: "always",
+              text: 
+                `Allure Report Link: ${allureReportLink}\n` + 
+                `Total test suites executed: ${suites.total}\n` +
+                `Summary: ${JSON.stringify(summary.statistic)}\n\n` +
+                `${suites.items.map(suite => `- ${suite.name}: ${JSON.stringify(suite.statistic)}\n\n`).join('')}`
+            })})
 
 
 
